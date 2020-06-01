@@ -36,19 +36,13 @@ options(knitr.kable.NA = '-')
 
 # Current Projects
 
-## 1. COVID-19 Testing Trend in Canada [(link)](https://rpubs.com/kuanstat/testing_can)
+## 1. Estimation of Regional Temporal Reproduction Number R0 of COVID-19
 
-This is a joint work with [Alexandra Bushby](https://www.linkedin.com/in/alexandra-bushby-571b65168/) and [Thai-son Tang](https://www.linkedin.com/in/thaison-tang/). Our project website is hosted at <https://rpubs.com/kuanstat/testing_can>. We provide descriptive data visualization on COVID-19 testing data in Canada. I started this project back in late March. 
+This is work is produced by replicating the subnational analysis provided at <https://epiforecasts.io/covid/> by a team of researcher lead by [Prof. Sebastian Funk](https://www.lshtm.ac.uk/aboutus/people/funk.sebastian) the at Centre for the Mathematical Modelling of Infectious Disases, London School of Hygiene and Tropical Medicine.
 
-We are planning to move the website content to a new shiny app in June using primarily the official federal and provincial testing data. The current analysis uses primary the testing data provided by [the COVID-19 Canada Open Data Working Group](https://github.com/ishaberry/Covid19Canada). 
+Two R packages developed by the same team were used, [the EpiNow R package](https://github.com/epiforecasts/EpiNow) and [the EpiSoon R package](https://github.com/epiforecasts/EpiSoon). In addition, [the forecastHybrid R package](https://github.com/ellisp/forecastHybrid) developed by David Shaub and Peter Ellis is used to produce a 14-day forecast on R0. Canada data is extracted again from the open-access data provided by [the COVID-19 Canada Open Data Working Group](https://github.com/ishaberry/Covid19Canada). 
 
-Highlight of the project visualization content: 
-
-* Total number of tests conducted
-* Total number of tests conducted per 100,000 population
-* Comparison of total tests per 100,000 population to the total number of cases per 100,000
-* Total number of daily new tests conducted
-*Proportion of patients tested positive out of the number of tests conducted
+Estimation results are shared on this website on [subtabs](https://kuan-liu.github.io/prov.html).
 
 
 
@@ -77,13 +71,19 @@ Sample plotly figures from our dashboard
 
 <br>
 
-## 3. Estimation of Regional Temporal Reproduction Number R0 of COVID-19
+## 3. COVID-19 Testing Trend in Canada [(link)](https://rpubs.com/kuanstat/testing_can)
 
-This is work is produced by replicating the subnational analysis provided at <https://epiforecasts.io/covid/> by a team of researcher lead by [Prof. Sebastian Funk](https://www.lshtm.ac.uk/aboutus/people/funk.sebastian) the at Centre for the Mathematical Modelling of Infectious Disases, London School of Hygiene and Tropical Medicine.
+This is a joint work with [Alexandra Bushby](https://www.linkedin.com/in/alexandra-bushby-571b65168/) and [Thai-son Tang](https://www.linkedin.com/in/thaison-tang/). Our project website is hosted at <https://rpubs.com/kuanstat/testing_can>. We provide descriptive data visualization on COVID-19 testing data in Canada. I started this project back in late March. 
 
-Two R packages developed by the same team were used, [the EpiNow R package](https://github.com/epiforecasts/EpiNow) and [the EpiSoon R package](https://github.com/epiforecasts/EpiSoon). In addition, [the forecastHybrid R package](https://github.com/ellisp/forecastHybrid) developed by David Shaub and Peter Ellis is used to produce a 14-day forecast on R0. Canada data is extracted again from the open-access data provided by [the COVID-19 Canada Open Data Working Group](https://github.com/ishaberry/Covid19Canada). 
+We are planning to move the website content to a new shiny app in June using primarily the official federal and provincial testing data. The current analysis uses primary the testing data provided by [the COVID-19 Canada Open Data Working Group](https://github.com/ishaberry/Covid19Canada). 
 
-Estimation results are shared on this website on subtabs.
+Highlight of the project visualization content: 
+
+* Total number of tests conducted
+* Total number of tests conducted per 100,000 population
+* Comparison of total tests per 100,000 population to the total number of cases per 100,000
+* Total number of daily new tests conducted
+*Proportion of patients tested positive out of the number of tests conducted
 
 <br>
 
