@@ -11,7 +11,7 @@ output:
     toc_float: no
 ---
 
-**Date Created:** June 01, 2020
+**Date Created:** Jun 01, 2020
 
 **Date Updated:** `r format(Sys.time(), "%b %d, %Y")`
 

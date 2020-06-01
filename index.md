@@ -15,7 +15,7 @@ output:
       # after_body: footer.html
 ---
 
-**Date Created:** June 01, 2020
+**Date Created:** Jun 01, 2020
 
 **Date Updated:** Jun 01, 2020
 
