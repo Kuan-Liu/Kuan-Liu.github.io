@@ -31,11 +31,11 @@ Last but not least, a 14-day forecast of R0 is conducted with the ensumble time 
 
 <br>
 
-# 2. Provintial Level Estimation Results
+# 2. Provincial Level Estimation Results
 
 ## (1) Overall summary
 
-* **We observed a highly probable declining of infection in Quebec. Infection spread and rate (decreasing or increasing) in unclear for the other three provinces.**
+* **We observed a highly probable declining of infection in Quebec. Infection spread and rate is unclear (neither increasing nor decreasing) for the other three provinces.**
 * **No forecast of R0 for Alberta and BC due to low number of daily new cases. Prediction is not completed if the last daily new case number is under 40.**
 
 <br>
