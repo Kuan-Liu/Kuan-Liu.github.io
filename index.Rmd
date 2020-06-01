@@ -58,7 +58,7 @@ Highlight of the dashboard content:
     + Case trajectory with comparison to other countries
     + Confirmed and fatal cases distribution by province and territory 
 * A case map page (using Leaflet)
-* A summary page for Toronto, Ontario and Quebect
+* A summary page for Toronto, Ontario and Quebec
 * A page with Canada COVID-19 data table
 
 Sample plotly figures from our dashboard
