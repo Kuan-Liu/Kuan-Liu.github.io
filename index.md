@@ -78,7 +78,7 @@ Sample plotly figures from our dashboard
 
 This is work is produced by replicating the subnational analysis provided at <https://epiforecasts.io/covid/> by a team of researcher lead by [Prof. Sebastian Funk](https://www.lshtm.ac.uk/aboutus/people/funk.sebastian) the at Centre for the Mathematical Modelling of Infectious Disases, London School of Hygiene and Tropical Medicine.
 
-Two R packages developed by the same team were used, [the EpiNow R package](https://github.com/epiforecasts/EpiNow) and [the EpiSoon R package](https://github.com/epiforecasts/EpiSoon). In addition, the forecastHybrid R package developed by [David Shaub and Peter Ellis](https://github.com/ellisp/forecastHybrid) is used to produce a 14-day forecast on R0. Canada data is extracted again from the open-access data provided by [the COVID-19 Canada Open Data Working Group](https://github.com/ishaberry/Covid19Canada). 
+Two R packages developed by the same team were used, [the EpiNow R package](https://github.com/epiforecasts/EpiNow) and [the EpiSoon R package](https://github.com/epiforecasts/EpiSoon). In addition, [the forecastHybrid R package](https://github.com/ellisp/forecastHybrid) developed by David Shaub and Peter Ellis is used to produce a 14-day forecast on R0. Canada data is extracted again from the open-access data provided by [the COVID-19 Canada Open Data Working Group](https://github.com/ishaberry/Covid19Canada). 
 
 Estimation results are shared on this website on subtabs.
 
