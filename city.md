@@ -22,7 +22,7 @@ output:
 
 # 1. Overall summary
 
-* **We observed a highly probable declining of infection in Montreal. Infection spread and rate (decreasing or increasing) is unclear for toronto.**
+* **We observed a highly probable declining of infection in Montreal. Infection spread and rate is unclear (neither increasing nor decreasing) for Toronto.**
 * **It's unclear given the most recent data that Toronto is on the path of declining infection (or on the path of inclining infection)**
 
 
