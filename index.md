@@ -41,7 +41,7 @@ Two R packages developed by the same team were used, [the EpiNow R package](http
 
 **Estimation results are shared on this website on [subtabs](https://kuan-liu.github.io/prov.html). I plan to update estimation results about three times per week.**
 
-
+<br>
 
 ## 2. COVID-19 Canada Dashboard [(link)](https://kuan-liu.shinyapps.io/canada_dash/)
 
