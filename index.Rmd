@@ -11,7 +11,7 @@ output:
     toc_depth: 3
     toc_float: no
     includes: 
-      # in_header: google-analytics.html
+      in_header: google-analytics.html
       # after_body: footer.html
 ---
 
