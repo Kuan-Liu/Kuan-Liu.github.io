@@ -34,7 +34,7 @@ Last but not least, a 14-day forecast of R0 is conducted with the ensumble time 
 
 <br>
 
-# 2. Provintial Level Estimation Results
+# 2. Provincial Level Estimation Results
 
 ## (1) Overall summary
 
