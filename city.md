@@ -22,11 +22,13 @@ output:
 
 # 1. Overall summary
 
-* **We observed a highly probable declining of infection in Montreal. Infection spread and rate is unclear (neither increasing nor decreasing) for Toronto.**
+* **We observed a highly probable declining of infection in Montreal.**
 * **It's unclear given the most recent data that Toronto is on the path of declining infection (or on the path of inclining infection)**
 
 
 **For estimation methods please see <https://epiforecasts.io/covid/methods.html>.** 
+
+**Complete model output generated from [the EpiNow R package](https://github.com/epiforecasts/EpiNow) is available at <https://github.com/Kuan-Liu/Kuan-Liu.github.io/tree/master/docs/city-summary>. You can find here, 1) all figures in png format, 2) estimated daily new cases with 50% and 90% credible intervals in case.csv file, 3) estimated and forecast temporal R0 with 50% and 90% Credible intervals in rt.csv file.**
 
 <br>
 
