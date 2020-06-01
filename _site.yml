@@ -1,0 +1,11 @@
+name: "personal-website"
+output_dir: "."
+navbar:
+  title: "Kuan Liu"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Provincial level R0"
+      href: prov.html
+    - text: "City level R0"
+      href: city.html

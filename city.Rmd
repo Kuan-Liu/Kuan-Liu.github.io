@@ -1,0 +1,21 @@
+---
+title: "Estimation of City Level COVID-19 Reproduction Number, R0"
+output:
+  html_document:
+    keep_md: true
+    highlight: haddock
+    number_sections: false
+    self_contained: yes
+    toc: yes
+    toc_depth: 3
+    toc_float: no
+---
+
+**Date Created:** June 01, 2020
+
+**Date Updated:** `r format(Sys.time(), "%b %d, %Y")`
+
+```{r setup, echo=FALSE, results='none', message = FALSE, warning = FALSE}
+knitr::opts_chunk$set(message = FALSE, warning = FALSE, fig.align = "center",fig.height = 6, fig.width = 9)
+options(knitr.kable.NA = '-')
+```

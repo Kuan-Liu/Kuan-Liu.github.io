@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Estimation of Provincial Level COVID-19 Reproduction Number, R0</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Kuan Liu</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="prov.html">Provincial level R0</a>
+</li>
+<li>
+  <a href="city.html">City level R0</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Estimation of Provincial Level COVID-19 Reproduction Number, R0</h1>
+
+</div>
+
+<div id="TOC">
+<ul>
+<li><a href="#overview-on-estimation-methods">1. Overview on Estimation Methods</a></li>
+<li><a href="#provintial-level-estimation-results">2. Provintial Level Estimation Results</a><ul>
+<li><a href="#overall-summary">(1) Overall summary</a></li>
+<li><a href="#figures-and-tables">(2) Figures and tables</a><ul>
+<li><a href="#i-estimated-temporal-r0-and-daily-new-cases-for-alberta-bc-ontario-and-quebec">(i) Estimated temporal R0 and daily new cases for Alberta, BC, Ontario and Quebec</a></li>
+<li><a href="#ii-estimated-temporal-r0-for-alberta-bc-ontario-and-quebec">(ii) Estimated temporal R0 for Alberta, BC, Ontario and Quebec</a></li>
+<li><a href="#iii-estimated-temporal-trend-on-daily-new-cases-for-alberta-bc-ontario-and-quebec">(iii) Estimated temporal trend on daily new cases for Alberta, BC, Ontario and Quebec</a></li>
+<li><a href="#iv-estimated-currentlatest-number-of-daily-new-cases-and-r0-for-alberta-bc-ontario-and-quebec">(iv) Estimated current/latest number of daily new cases and R0 for Alberta, BC, Ontario and Quebec</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+
+<p><strong>Date Created:</strong> June 01, 2020</p>
+<p><strong>Date Updated:</strong> Jun 01, 2020</p>
+<p><br></p>
+<div id="overview-on-estimation-methods" class="section level1">
+<h1>1. Overview on Estimation Methods</h1>
+<p>For estimation methods please see <a href="https://epiforecasts.io/covid/methods.html" class="uri">https://epiforecasts.io/covid/methods.html</a>.</p>
+<p>In a nutshell, the reproduction number is estimated with a stochastic (infection) generation model under a Bayesian framework using MCMC with an informative gamma prior (mean 2.6 and standard deviation 2, based on initial Wuhan R0 estimates).</p>
+<p>Estimation of R0 accounts for reporting delay, what is defined as the time between sympton onset and reporting. The delay time distribution is estimated using an international data (avaliable at <a href="https://github.com/epiforecasts/NCoVUtils" class="uri">https://github.com/epiforecasts/NCoVUtils</a>) while sympton onset date and reporting date are both recorded. Unfortunately, there is no open-access data on such information in Canada, so there could be potential bias using an estimates of this delay from data of other Countries.</p>
+<p>Last but not least, a 14-day forecast of R0 is conducted with the ensumble time series models using <a href="https://github.com/ellisp/forecastHybrid">the forecastHybrid R package</a> developed by David Shaub and Peter Ellis.</p>
+<p><br></p>
+</div>
+<div id="provintial-level-estimation-results" class="section level1">
+<h1>2. Provintial Level Estimation Results</h1>
+<div id="overall-summary" class="section level2">
+<h2>(1) Overall summary</h2>
+<ul>
+<li><strong>We observed a highly probable declining of infection in Quebec. Infection spread and rate (decreasing or increasing) in unclear for the other three provinces.</strong></li>
+<li><strong>No forecast of R0 for Alberta and BC due to low number of daily new cases. Prediction is not completed if the last daily new case number is under 40.</strong></li>
+</ul>
+<p><br></p>
+</div>
+<div id="figures-and-tables" class="section level2">
+<h2>(2) Figures and tables</h2>
+<div id="i-estimated-temporal-r0-and-daily-new-cases-for-alberta-bc-ontario-and-quebec" class="section level3">
+<h3>(i) Estimated temporal R0 and daily new cases for Alberta, BC, Ontario and Quebec</h3>
+<table>
+<caption>Estimated temporal R0 and daily new cases for Alberta, BC, Ontario and Quebec as of Jun 01, 2020</caption>
+<thead>
+<tr class="header">
+<th align="center">Province</th>
+<th align="center">New confirmed cases by infection date</th>
+<th align="center">Expected change in daily cases</th>
+<th align="center">Effective reproduction no.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">Alberta</td>
+<td align="center">26 (13 – 37)</td>
+<td align="center">Unsure</td>
+<td align="center">0.9 (0.6 – 1.2)</td>
+</tr>
+<tr class="even">
+<td align="center">BC</td>
+<td align="center">13 (3 – 20)</td>
+<td align="center">Unsure</td>
+<td align="center">1 (0.6 – 1.5)</td>
+</tr>
+<tr class="odd">
+<td align="center">Ontario</td>
+<td align="center">395 (348 – 446)</td>
+<td align="center">Unsure</td>
+<td align="center">1 (0.9 – 1.1)</td>
+</tr>
+<tr class="even">
+<td align="center">Quebec</td>
+<td align="center">552 (497 – 603)</td>
+<td align="center">Likely decreasing</td>
+<td align="center">1 (0.9 – 1)</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</div>
+<div id="ii-estimated-temporal-r0-for-alberta-bc-ontario-and-quebec" class="section level3">
+<h3>(ii) Estimated temporal R0 for Alberta, BC, Ontario and Quebec</h3>
+<div class="figure">
+<img src="docs/regional-summary/high_cases_rt_plot.png" />
+
+</div>
+<p><br></p>
+</div>
+<div id="iii-estimated-temporal-trend-on-daily-new-cases-for-alberta-bc-ontario-and-quebec" class="section level3">
+<h3>(iii) Estimated temporal trend on daily new cases for Alberta, BC, Ontario and Quebec</h3>
+<div class="figure">
+<img src="docs/regional-summary/high_cases_plot.png" />
+
+</div>
+<p><br></p>
+</div>
+<div id="iv-estimated-currentlatest-number-of-daily-new-cases-and-r0-for-alberta-bc-ontario-and-quebec" class="section level3">
+<h3>(iv) Estimated current/latest number of daily new cases and R0 for Alberta, BC, Ontario and Quebec</h3>
+<div class="figure">
+<img src="docs/regional-summary/summary_plot.png" />
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
