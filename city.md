@@ -20,9 +20,7 @@ output:
 <br>
 
 
-# 1. City Level Estimation Results
-
-## (1) Overall summary
+# 1. Overall summary
 
 * **We observed a highly probable declining of infection in Montreal. Infection spread and rate (decreasing or increasing) is unclear for toronto.**
 * **It's unclear given the most recent data that Toronto is on the path of declining infection (or on the path of inclining infection)**
@@ -32,9 +30,9 @@ output:
 
 <br>
 
-## (2) Figures and tables
+# 2. Figures and tables
 
-### (i) Estimated temporal R0 and daily new cases for Montreal and Toronto
+## (1) Estimated temporal R0 and daily new cases for Montreal and Toronto
 
 
 Table: Estimated temporal R0 and daily new cases for Montreal and Toronto as of  Jun 01, 2020
@@ -46,18 +44,18 @@ Table: Estimated temporal R0 and daily new cases for Montreal and Toronto as of 
 
 <br>
 
-### (ii) Estimated temporal R0 for Montreal and Toronto
+## (2) Estimated temporal R0 for Montreal and Toronto
 
 ![](docs/city-summary/high_cases_rt_plot.png)
 
 <br>
 
-### (iii) Estimated temporal trend on daily new cases for Montreal and Toronto
+## (3) Estimated temporal trend on daily new cases for Montreal and Toronto
 
 ![](docs/city-summary/high_cases_plot.png)
 
 <br>
 
-### (iv) Estimated current/latest number of daily new cases and R0 for Montreal and Toronto
+## (4) Estimated current/latest number of daily new cases and R0 for Montreal and Toronto
 
 ![](docs/city-summary/summary_plot.png)
