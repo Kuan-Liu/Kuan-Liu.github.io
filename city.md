@@ -13,12 +13,9 @@ output:
 
 **Date Created:** June 01, 2020
 
-**Date Updated:** `r format(Sys.time(), "%b %d, %Y")`
+**Date Updated:** Jun 01, 2020
 
-```{r setup, echo=FALSE, results='none', message = FALSE, warning = FALSE}
-knitr::opts_chunk$set(message = FALSE, warning = FALSE, fig.align = "center",fig.height = 6, fig.width = 9)
-options(knitr.kable.NA = '-')
-```
+
 
 
 # 1. City Level Estimation Results
@@ -37,14 +34,13 @@ options(knitr.kable.NA = '-')
 
 ### (i) Estimated temporal R0 and daily new cases for Montreal and Toronto
 
-```{r echo=FALSE}
-# required packages:
-library(knitr)
-summarytable2 <- readRDS("docs/city-summary/summary_table.rds")
 
-kable(summarytable2[,1:4], caption = paste("Estimated temporal R0 and daily new cases for Montreal and Toronto as of ", format(Sys.time(), "%b %d, %Y")), row.names = FALSE, align=c("c","c","c","c"))
+Table: Estimated temporal R0 and daily new cases for Montreal and Toronto as of  Jun 01, 2020
 
-```
+   City      New confirmed cases by infection date    Expected change in daily cases    Effective reproduction no. 
+----------  ---------------------------------------  --------------------------------  ----------------------------
+ Montreal              236 (202 -- 269)                     Likely decreasing                 0.9 (0.8 -- 1)       
+ Toronto               178 (152 -- 206)                           Unsure                      1 (0.9 -- 1.1)       
 
 <br>
 
