@@ -17,7 +17,7 @@ output:
 
 **Date Created:** Jun 01, 2020
 
-**Date Updated:** Jun 01, 2020
+**Date Updated:** Jun 02, 2020
 
 
 
@@ -80,7 +80,7 @@ Highlight of the project visualization content:
 * Total number of tests conducted per 100,000 population
 * Comparison of total tests per 100,000 population to the total number of cases per 100,000
 * Total number of daily new tests conducted
-*Proportion of patients tested positive out of the number of tests conducted
+* Proportion of patients tested positive out of the number of tests conducted
 
 <br>
 
