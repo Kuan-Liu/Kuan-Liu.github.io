@@ -35,7 +35,7 @@ output:
 
 # 2. Figures and tables
 
-## (1) Estimated temporal R0 and daily new cases for Montreal and Toronto
+## (1) Estimated temporal R0 and daily new cases for Montreal, Toronto, Durham, Peel and York health regions
 
 
 Table: Estimated temporal R0 and daily new cases for Montreal and Toronto as of  Jun 04, 2020
@@ -50,18 +50,18 @@ Table: Estimated temporal R0 and daily new cases for Montreal and Toronto as of 
 
 <br>
 
-## (2) Estimated temporal R0 for Montreal and Toronto
+## (2) Estimated temporal R0 for Montreal, Toronto, Durham, Peel and York health regions
 
 ![](docs/city-summary/high_cases_rt_plot.png)
 
 <br>
 
-## (3) Estimated temporal trend on daily new cases for Montreal and Toronto
+## (3) Estimated temporal trend on daily new cases for Montreal, Toronto, Durham, Peel and York health regions
 
 ![](docs/city-summary/high_cases_plot.png)
 
 <br>
 
-## (4) Estimated current/latest number of daily new cases and R0 for Montreal and Toronto
+## (4) Estimated current/latest number of daily new cases and R0 for Montreal, Toronto, Durham, Peel and York health regions
 
 ![](docs/city-summary/summary_plot.png)

@@ -38,7 +38,7 @@ options(knitr.kable.NA = '-')
 
 # 2. Figures and tables
 
-## (1) Estimated temporal R0 and daily new cases for Montreal and Toronto
+## (1) Estimated temporal R0 and daily new cases for Montreal, Toronto, Durham, Peel and York health regions
 
 ```{r echo=FALSE}
 # required packages:
@@ -51,18 +51,18 @@ kable(summarytable2[,1:4], caption = paste("Estimated temporal R0 and daily new 
 
 <br>
 
-## (2) Estimated temporal R0 for Montreal and Toronto
+## (2) Estimated temporal R0 for Montreal, Toronto, Durham, Peel and York health regions
 
 ![](docs/city-summary/high_cases_rt_plot.png)
 
 <br>
 
-## (3) Estimated temporal trend on daily new cases for Montreal and Toronto
+## (3) Estimated temporal trend on daily new cases for Montreal, Toronto, Durham, Peel and York health regions
 
 ![](docs/city-summary/high_cases_plot.png)
 
 <br>
 
-## (4) Estimated current/latest number of daily new cases and R0 for Montreal and Toronto
+## (4) Estimated current/latest number of daily new cases and R0 for Montreal, Toronto, Durham, Peel and York health regions
 
 ![](docs/city-summary/summary_plot.png)
