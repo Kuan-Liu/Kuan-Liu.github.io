@@ -13,7 +13,7 @@ output:
 
 **Date Created:** Jun 01, 2020
 
-**Date Updated:** Jun 01, 2020
+**Date Updated:** Jun 04, 2020
 
 
 
@@ -37,7 +37,9 @@ Last but not least, a 14-day forecast of R0 is conducted with the ensumble time 
 
 ## (1) Overall summary
 
-* **We observed a highly probable declining of infection in Quebec. Infection spread and rate is unclear (neither increasing nor decreasing) for the other three provinces.**
+* **We observed a probable infection spread and rate increase in Ontario.**
+* **We observed a highly probable declining of infection in Quebec.**
+* **It's unclear (neither increasing nor decreasing) for Alberta and British Columnbia.**
 * **No forecast of R0 for Alberta and BC due to low number of daily new cases. Prediction is not completed if the last daily new case number is under 40.**
 
 <br>
@@ -47,14 +49,14 @@ Last but not least, a 14-day forecast of R0 is conducted with the ensumble time 
 ### (i) Estimated temporal R0 and daily new cases for Alberta, BC, Ontario and Quebec
 
 
-Table: Estimated temporal R0 and daily new cases for Alberta, BC, Ontario and Quebec as of  Jun 01, 2020
+Table: Estimated temporal R0 and daily new cases for Alberta, BC, Ontario and Quebec as of  Jun 04, 2020
 
  Province    New confirmed cases by infection date    Expected change in daily cases    Effective reproduction no. 
 ----------  ---------------------------------------  --------------------------------  ----------------------------
- Alberta                 26 (13 -- 37)                            Unsure                     0.9 (0.6 -- 1.2)      
-    BC                   13 (3 -- 20)                             Unsure                      1 (0.6 -- 1.5)       
- Ontario               395 (348 -- 446)                           Unsure                      1 (0.9 -- 1.1)       
-  Quebec               552 (497 -- 603)                     Likely decreasing                  1 (0.9 -- 1)        
+ Alberta                 25 (12 -- 36)                            Unsure                      1 (0.7 -- 1.3)       
+    BC                   15 (5 -- 23)                             Unsure                     1.2 (0.8 -- 1.8)      
+ Ontario               428 (373 -- 478)                     Likely increasing                 1.1 (1 -- 1.2)       
+  Quebec               388 (341 -- 431)                         Decreasing                   0.9 (0.8 -- 0.9)      
 
 <br>
 

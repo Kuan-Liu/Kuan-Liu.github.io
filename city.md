@@ -1,5 +1,5 @@
 ---
-title: "Estimation of City Level COVID-19 Reproduction Number, R0"
+title: "Estimation of City and Health Region Level COVID-19 Reproduction Number, R0"
 output:
   html_document:
     keep_md: true
@@ -13,7 +13,7 @@ output:
 
 **Date Created:** Jun 01, 2020
 
-**Date Updated:** Jun 01, 2020
+**Date Updated:** Jun 04, 2020
 
 
 
@@ -22,9 +22,10 @@ output:
 
 # 1. Overall summary
 
+* **We observed a probable infection spread and rate increase in York region.**
 * **We observed a highly probable declining of infection in Montreal.**
-* **It's unclear given the most recent data that Toronto is on the path of declining infection (or on the path of inclining infection)**
-
+* **It's unclear (neither increasing nor decreasing) for other health regions including Toronto, Peel and Durham.**
+* **No forecast of R0 for areas with low number of daily new cases. Prediction is not completed if the last daily new case number is under 40.**
 
 **For estimation methods please see <https://epiforecasts.io/covid/methods.html>.** 
 
@@ -37,12 +38,15 @@ output:
 ## (1) Estimated temporal R0 and daily new cases for Montreal and Toronto
 
 
-Table: Estimated temporal R0 and daily new cases for Montreal and Toronto as of  Jun 01, 2020
+Table: Estimated temporal R0 and daily new cases for Montreal and Toronto as of  Jun 04, 2020
 
    City      New confirmed cases by infection date    Expected change in daily cases    Effective reproduction no. 
 ----------  ---------------------------------------  --------------------------------  ----------------------------
- Montreal              236 (202 -- 269)                     Likely decreasing                 0.9 (0.8 -- 1)       
- Toronto               178 (152 -- 206)                           Unsure                      1 (0.9 -- 1.1)       
+  Durham                 17 (7 -- 26)                             Unsure                     1.1 (0.7 -- 1.5)      
+ Montreal              170 (141 -- 198)                         Decreasing                    0.9 (0.8 -- 1)       
+   Peel                 83 (59 -- 102)                            Unsure                      1 (0.8 -- 1.2)       
+ Toronto               174 (143 -- 200)                           Unsure                      1 (0.9 -- 1.1)       
+   York                  40 (25 -- 52)                      Likely increasing                1.2 (0.9 -- 1.5)      
 
 <br>
 

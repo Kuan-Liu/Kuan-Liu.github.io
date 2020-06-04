@@ -17,7 +17,7 @@ output:
 
 **Date Created:** Jun 01, 2020
 
-**Date Updated:** Jun 02, 2020
+**Date Updated:** Jun 04, 2020
 
 
 
@@ -39,7 +39,7 @@ This is work is produced by replicating the subnational analysis provided at <ht
 
 Two R packages developed by the same team were used, [the EpiNow R package](https://github.com/epiforecasts/EpiNow) and [the EpiSoon R package](https://github.com/epiforecasts/EpiSoon). In addition, [the forecastHybrid R package](https://github.com/ellisp/forecastHybrid) developed by David Shaub and Peter Ellis is used to produce a 14-day forecast on R0. Canada data is extracted again from the open-access data provided by [the COVID-19 Canada Open Data Working Group](https://github.com/ishaberry/Covid19Canada). 
 
-**Estimation results are shared on this website on [subtabs](https://kuan-liu.github.io/prov.html). I plan to update estimation results about three times per week.**
+**Estimation results are shared on this website on subtabs [Provincial level R0](https://kuan-liu.github.io/prov.html) and [City level R0](https://kuan-liu.github.io/city.html). I plan to update estimation results about three times per week.**
 
 <br>
 
