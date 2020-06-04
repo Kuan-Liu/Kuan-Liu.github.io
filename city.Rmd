@@ -45,7 +45,7 @@ options(knitr.kable.NA = '-')
 library(knitr)
 summarytable2 <- readRDS("docs/city-summary/summary_table.rds")
 
-kable(summarytable2[,1:4], caption = paste("Estimated temporal R0 and daily new cases for Montreal and Toronto as of ", format(Sys.time(), "%b %d, %Y")), row.names = FALSE, align=c("c","c","c","c"))
+kable(summarytable2[,1:4], caption = paste("Estimated temporal R0 and daily new cases for Montreal, Toronto, Durham, Peel and York health regions as of ", format(Sys.time(), "%b %d, %Y")), row.names = FALSE, align=c("c","c","c","c"))
 
 ```
 

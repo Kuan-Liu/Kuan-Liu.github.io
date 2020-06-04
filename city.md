@@ -38,7 +38,7 @@ output:
 ## (1) Estimated temporal R0 and daily new cases for Montreal, Toronto, Durham, Peel and York health regions
 
 
-Table: Estimated temporal R0 and daily new cases for Montreal and Toronto as of  Jun 04, 2020
+Table: Estimated temporal R0 and daily new cases for Montreal, Toronto, Durham, Peel and York health regions as of  Jun 04, 2020
 
    City      New confirmed cases by infection date    Expected change in daily cases    Effective reproduction no. 
 ----------  ---------------------------------------  --------------------------------  ----------------------------
