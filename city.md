@@ -13,7 +13,7 @@ output:
 
 **Date Created:** Jun 01, 2020
 
-**Date Updated:** Jun 10, 2020
+**Date Updated:** Jun 14, 2020
 
 
 
@@ -38,15 +38,17 @@ output:
 ## (1) Estimated temporal R0 and daily new cases for Montreal, Toronto, Durham, Peel and York health regions
 
 
-Table: Estimated temporal R0 and daily new cases for Montreal, Toronto, Durham, Peel and York health regions as of  Jun 10, 2020
+Table: Estimated temporal R0 and daily new cases for Montreal, Toronto, Durham, Peel and York health regions as of  Jun 14, 2020
 
-   City      New confirmed cases by infection date    Expected change in daily cases    Effective reproduction no. 
-----------  ---------------------------------------  --------------------------------  ----------------------------
-  Durham                 19 (8 -- 28)                             Unsure                     1.1 (0.7 -- 1.5)      
- Montreal               102 (81 -- 121)                         Decreasing                   0.8 (0.7 -- 0.9)      
-   Peel                  59 (39 -- 76)                      Likely decreasing                 0.9 (0.7 -- 1)       
- Toronto               215 (180 -- 246)                         Increasing                    1.1 (1 -- 1.2)       
-   York                  27 (15 -- 37)                            Unsure                      1 (0.7 -- 1.2)       
+    City       New confirmed cases by infection date    Expected change in daily cases    Effective reproduction no. 
+------------  ---------------------------------------  --------------------------------  ----------------------------
+   Durham                  15 (5 -- 24)                             Unsure                      1 (0.6 -- 1.4)       
+   Laval                   18 (5 -- 27)                             Unsure                     0.9 (0.5 -- 1.2)      
+ Monteregie                47 (29 -- 60)                      Likely decreasing                0.9 (0.7 -- 1.1)      
+  Montreal                 76 (56 -- 92)                      Likely decreasing                 0.8 (0.7 -- 1)       
+    Peel                   43 (30 -- 56)                      Likely decreasing                 0.8 (0.7 -- 1)       
+  Toronto                134 (112 -- 158)                     Likely decreasing                 0.9 (0.8 -- 1)       
+    York                   28 (15 -- 40)                            Unsure                      1 (0.8 -- 1.4)       
 
 <br>
 
