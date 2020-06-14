@@ -22,7 +22,7 @@ output:
 
 # 1. Overall summary
 
-* **We observed probable infection rate decrease in Montegregie, Montreal, Peel, Toronto and York region.**
+* **We observed probable infection rate decrease in Monteregie, Montreal, Peel, Toronto and York region.**
 <!-- * **We observed a highly probable declining of infection in Montreal.** -->
 * **It's unclear (neither increasing nor decreasing) for other health regions.**
 * **No forecast of R0 for areas with low number of daily new cases. Prediction is not completed if the last daily new case number is under 40.**
@@ -35,10 +35,10 @@ output:
 
 # 2. Figures and tables
 
-## (1) Estimated temporal R0 and daily new cases for Laval, Montegregie, Montreal, Toronto, Durham, Peel and York health regions
+## (1) Estimated temporal R0 and daily new cases for Laval, Monteregie, Montreal, Toronto, Durham, Peel and York health regions
 
 
-Table: Estimated temporal R0 and daily new cases for Laval, Montegregie, Montreal, Toronto, Durham, Peel and York health regions as of  Jun 14, 2020
+Table: Estimated temporal R0 and daily new cases for Laval, Monteregie, Montreal, Toronto, Durham, Peel and York health regions as of  Jun 14, 2020
 
     City       New confirmed cases by infection date    Expected change in daily cases    Effective reproduction no. 
 ------------  ---------------------------------------  --------------------------------  ----------------------------
@@ -52,18 +52,18 @@ Table: Estimated temporal R0 and daily new cases for Laval, Montegregie, Montrea
 
 <br>
 
-## (2) Estimated temporal R0 for Laval, Montegregie, Montreal, Toronto, Durham, Peel and York health regions
+## (2) Estimated temporal R0 for Laval, Monteregie, Montreal, Toronto, Durham, Peel and York health regions
 
 ![](docs/city-summary/high_cases_rt_plot.png)
 
 <br>
 
-## (3) Estimated temporal trend on daily new cases for Laval, Montegregie, Montreal, Toronto, Durham, Peel and York health regions
+## (3) Estimated temporal trend on daily new cases for Laval, Monteregie, Montreal, Toronto, Durham, Peel and York health regions
 
 ![](docs/city-summary/high_cases_plot.png)
 
 <br>
 
-## (4) Estimated current/latest number of daily new cases and R0 for Laval, Montegregie, Montreal, Toronto, Durham, Peel and York health regions
+## (4) Estimated current/latest number of daily new cases and R0 for Laval, Monteregie, Montreal, Toronto, Durham, Peel and York health regions
 
 ![](docs/city-summary/summary_plot.png)
