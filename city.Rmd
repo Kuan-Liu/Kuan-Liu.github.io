@@ -25,8 +25,8 @@ options(knitr.kable.NA = '-')
 
 # 1. Overall summary
 
-* **We observed probable infection rate decrease in Monteregie, Montreal, Peel, Toronto and York region.**
-<!-- * **We observed a highly probable declining of infection in Montreal.** -->
+* **We observed probable infection rate decrease in Monteregie and Montreal.**
+* **We observed a highly probable declining of infection in Toronto.**
 * **It's unclear (neither increasing nor decreasing) for other health regions.**
 * **No forecast of R0 for areas with low number of daily new cases. Prediction is not completed if the last daily new case number is under 40.**
 
