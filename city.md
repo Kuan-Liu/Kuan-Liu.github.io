@@ -13,7 +13,7 @@ output:
 
 **Date Created:** Jun 01, 2020
 
-**Date Updated:** Jun 19, 2020
+**Date Updated:** Jun 25, 2020
 
 
 
@@ -23,7 +23,7 @@ output:
 # 1. Overall summary
 
 * **We observed probable infection rate decrease in Monteregie and Montreal.**
-* **We observed a highly probable declining of infection in Toronto.**
+* **We observed probable increase of infection in Peel.**
 * **It's unclear (neither increasing nor decreasing) for other health regions.**
 * **No forecast of R0 for areas with low number of daily new cases. Prediction is not completed if the last daily new case number is under 40.**
 
@@ -38,17 +38,17 @@ output:
 ## (1) Estimated temporal R0 and daily new cases for Laval, Monteregie, Montreal, Toronto, Durham, Peel and York health regions
 
 
-Table: Estimated temporal R0 and daily new cases for Laval, Monteregie, Montreal, Toronto, Durham, Peel and York health regions as of  Jun 19, 2020
+Table: Estimated temporal R0 and daily new cases for Laval, Monteregie, Montreal, Toronto, Durham, Peel and York health regions as of  Jun 25, 2020
 
     City       New confirmed cases by infection date    Expected change in daily cases    Effective reproduction no. 
 ------------  ---------------------------------------  --------------------------------  ----------------------------
-   Durham                  11 (2 -- 20)                             Unsure                      1 (0.5 -- 1.5)       
-   Laval                   13 (4 -- 21)                             Unsure                     0.9 (0.5 -- 1.4)      
- Monteregie                31 (16 -- 43)                      Likely decreasing                 0.8 (0.6 -- 1)       
-  Montreal                 61 (44 -- 76)                      Likely decreasing                0.9 (0.7 -- 1.1)      
-    Peel                   42 (28 -- 56)                            Unsure                     0.9 (0.7 -- 1.2)      
-  Toronto                 100 (79 -- 120)                         Decreasing                    0.8 (0.7 -- 1)       
-    York                   16 (6 -- 25)                             Unsure                     0.9 (0.5 -- 1.2)      
+   Durham                   9 (0 -- 16)                             Unsure                      1.2 (0.5 -- 2)       
+   Laval                   16 (6 -- 25)                             Unsure                     1.2 (0.7 -- 1.7)      
+ Monteregie                19 (7 -- 29)                       Likely decreasing                0.8 (0.5 -- 1.2)      
+  Montreal                 37 (24 -- 48)                      Likely decreasing                 0.8 (0.6 -- 1)       
+    Peel                   60 (41 -- 74)                      Likely increasing                1.1 (0.9 -- 1.4)      
+  Toronto                  71 (52 -- 87)                            Unsure                     0.9 (0.7 -- 1.1)      
+    York                   19 (8 -- 28)                             Unsure                     1.2 (0.7 -- 1.6)      
 
 <br>
 
