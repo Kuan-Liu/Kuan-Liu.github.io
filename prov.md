@@ -42,7 +42,7 @@ Last but not least, a 14-day forecast of R0 is conducted with the ensumble time 
 * **It's unclear (neither increasing nor decreasing) for Alberta, British Columbia and Ontario.**
 * **No forecast of R0 for BC due to low number of daily new cases. Prediction is not completed if the last daily new case number is under 40.**
 
-The estimation uncertainly is quite substantial (translate directly to wide credible interval) for British Columbia R0 estimand. Thus, the conclusion of probably infection in BC is sensitive to new data on daily new confirmed cases. Our model conclusion will likely change for BC with new data.
+The estimation uncertainly is quite substantial (translate directly to wide credible interval) for British Columbia R0 estimand. Thus, the conclusion of probable infection in BC is sensitive to new data on daily new confirmed cases. Our model conclusion will likely change for BC with new data.
 
 <br>
 
