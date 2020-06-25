@@ -13,7 +13,7 @@ output:
 
 **Date Created:** Jun 01, 2020
 
-**Date Updated:** Jun 19, 2020
+**Date Updated:** Jun 25, 2020
 
 
 
@@ -37,12 +37,12 @@ Last but not least, a 14-day forecast of R0 is conducted with the ensumble time 
 
 ## (1) Overall summary
 
-* **We observed a probable infection spread and rate increase in British Columbia and a probably decrease in Ontario.**
-* **We observed a highly probable declining of infection in Quebec.**
-* **It's unclear (neither increasing nor decreasing) for Alberta.**
-* **No forecast of R0 for Alberta and BC due to low number of daily new cases. Prediction is not completed if the last daily new case number is under 40.**
+* **We observed a probable infection spread and rate decrease in Quebec.**
+<!-- * **We observed a highly probable declining of infection in Quebec.** -->
+* **It's unclear (neither increasing nor decreasing) for Alberta, British Columbia and Ontario.**
+* **No forecast of R0 for BC due to low number of daily new cases. Prediction is not completed if the last daily new case number is under 40.**
 
-<!-- However, the estimation uncertainly is quite substantial (translate directly to wide credible interval) for British Columbia R0 estimand. Thus, the conclusion of probably infection in BC is sensitive to new data on daily new confirmed cases. Our model conclusion will likely change for BC with new data. -->
+The estimation uncertainly is quite substantial (translate directly to wide credible interval) for British Columbia R0 estimand. Thus, the conclusion of probably infection in BC is sensitive to new data on daily new confirmed cases. Our model conclusion will likely change for BC with new data.
 
 <br>
 
@@ -51,14 +51,14 @@ Last but not least, a 14-day forecast of R0 is conducted with the ensumble time 
 ### (i) Estimated temporal R0 and daily new cases for Alberta, BC, Ontario and Quebec
 
 
-Table: Estimated temporal R0 and daily new cases for Alberta, BC, Ontario and Quebec as of  Jun 19, 2020
+Table: Estimated temporal R0 and daily new cases for Alberta, BC, Ontario and Quebec as of  Jun 25, 2020
 
  Province    New confirmed cases by infection date    Expected change in daily cases    Effective reproduction no. 
 ----------  ---------------------------------------  --------------------------------  ----------------------------
- Alberta                 40 (25 -- 52)                            Unsure                     1.1 (0.8 -- 1.3)      
-    BC                   19 (8 -- 28)                       Likely increasing                1.3 (0.8 -- 1.7)      
- Ontario               228 (194 -- 260)                     Likely decreasing                 0.9 (0.8 -- 1)       
-  Quebec               137 (115 -- 162)                         Decreasing                    0.9 (0.7 -- 1)       
+ Alberta                 44 (28 -- 56)                            Unsure                      1 (0.8 -- 1.3)       
+    BC                   17 (6 -- 25)                             Unsure                     1.2 (0.8 -- 1.6)      
+ Ontario               227 (191 -- 259)                           Unsure                     1.1 (0.9 -- 1.2)      
+  Quebec                92 (71 -- 111)                      Likely decreasing                 0.9 (0.7 -- 1)       
 
 <br>
 
