@@ -13,7 +13,7 @@ output:
 
 **Date Created:** Jun 01, 2020
 
-**Date Updated:** Jul 24, 2020
+**Date Updated:** Jul 30, 2020
 
 
 
@@ -22,7 +22,7 @@ output:
 
 # 1. Overall summary
 
-* **We observed probable infection rate increase in Laval and Montreal.**
+* **We observed probable infection rate decrease in Toronto and Peel.**
 <!-- * **We observed probable increase of infection in Peel.** -->
 * **It's unclear (neither increasing nor decreasing) for other health regions.**
 * **No forecast of R0 for areas with low number of daily new cases. Prediction is not completed if the last daily new case number is under 40.**
@@ -35,35 +35,32 @@ output:
 
 # 2. Figures and tables
 
-## (1) Estimated temporal R0 and daily new cases for Laval, Monteregie, Montreal, Toronto, Durham, Peel and York health regions
+## (1) Estimated temporal R0 and daily new cases for Monteregie, Montreal, Toronto and Peel health regions
 
 
-Table: Estimated temporal R0 and daily new cases for Laval, Monteregie, Montreal, Toronto, Durham, Peel and York health regions as of  Jul 24, 2020
+Table: Estimated temporal R0 and daily new cases for Monteregie, Montreal, Toronto and Peel health regions as of  Jul 30, 2020
 
     City       New confirmed cases by infection date    Expected change in daily cases    Effective reproduction no. 
 ------------  ---------------------------------------  --------------------------------  ----------------------------
-   Durham                   9 (0 -- 17)                             Unsure                     1.3 (0.5 -- 2.1)      
-   Laval                   12 (3 -- 19)                       Likely increasing                 1.4 (0.7 -- 2)       
- Monteregie                41 (27 -- 56)                            Unsure                     1.1 (0.9 -- 1.4)      
-  Montreal                 81 (62 -- 99)                          Increasing                    1.3 (1 -- 1.5)       
-    Peel                   37 (22 -- 50)                            Unsure                      1 (0.8 -- 1.3)       
-  Toronto                  38 (25 -- 50)                            Unsure                      1 (0.8 -- 1.2)       
-    York                   13 (3 -- 22)                             Unsure                     1.2 (0.6 -- 1.7)      
+ Monteregie                36 (21 -- 50)                            Unsure                      1 (0.7 -- 1.2)       
+  Montreal                 73 (55 -- 90)                            Unsure                     1.1 (0.9 -- 1.3)      
+    Peel                   22 (9 -- 31)                       Likely decreasing                0.9 (0.6 -- 1.1)      
+  Toronto                  23 (13 -- 32)                      Likely decreasing                0.9 (0.6 -- 1.1)      
 
 <br>
 
-## (2) Estimated temporal R0 for Monteregie, Montreal, Toronto, Durham, Peel and York health regions
+## (2) Estimated temporal R0 for Monteregie, Montreal, Toronto and Peel health regions
 
 ![](docs/city-summary/high_cases_rt_plot.png)
 
 <br>
 
-## (3) Estimated temporal trend on daily new cases for Monteregie, Montreal, Toronto, Durham, Peel and York health regions
+## (3) Estimated temporal trend on daily new cases for Monteregie, Montreal, Toronto and Peel health regions
 
 ![](docs/city-summary/high_cases_plot.png)
 
 <br>
 
-## (4) Estimated current/latest number of daily new cases and R0 for Laval, Monteregie, Montreal, Toronto, Durham, Peel and York health regions
+## (4) Estimated current/latest number of daily new cases and R0 for Monteregie, Montreal, Toronto and Peel health regions
 
 ![](docs/city-summary/summary_plot.png)
