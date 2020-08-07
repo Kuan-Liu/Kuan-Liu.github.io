@@ -22,7 +22,7 @@ output:
 
 # 1. Overall summary
 
-* **We observed probable infection rate decrease in Toronto and Peel.**
+<!-- * **We observed probable infection rate decrease in Toronto and Peel.** -->
 <!-- * **We observed probable increase of infection in Peel.** -->
 * **It's unclear (neither increasing nor decreasing) for other health regions.**
 * **No forecast of R0 for areas with low number of daily new cases. Prediction is not completed if the last daily new case number is under 40.**
