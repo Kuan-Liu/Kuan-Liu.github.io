@@ -13,7 +13,7 @@ output:
 
 **Date Created:** Jun 01, 2020
 
-**Date Updated:** Aug 07, 2020
+**Date Updated:** Aug 30, 2020
 
 
 
@@ -37,12 +37,12 @@ Last but not least, a 14-day forecast of R0 is conducted with the ensumble time 
 
 ## (1) Overall summary
 
-* **We observed a probable infection spread and rate increase in British Columbia.**
-<!-- * **We observed a highly probable declining of infection in Quebec.** -->
+* **We observed a probable infection spread and rate increase in Ontario and Quebect.**
+* **We observed a highly probable infection increase in Alberta.**
 <!-- * **We observed an increasing number of daily new cases in Alberta since June 2020. However, the predicted number of daily new cases in Alberta is only around 100 cases.** -->
 <!-- * **No forecast of R0 for BC due to low number of daily new cases. Prediction is not completed if the last daily new case number is under 40.** -->
 
-The estimation uncertainly is quite substantial (translate directly to wide credible interval) for British Columbia R0 estimand. Thus, the conclusion of probable infection in BC is sensitive to new data on daily new confirmed cases. Our model conclusion will likely change for BC with new data.
+<!-- The estimation uncertainly is quite substantial (translate directly to wide credible interval) for British Columbia R0 estimand. Thus, the conclusion of probable infection in BC is sensitive to new data on daily new confirmed cases. Our model conclusion will likely change for BC with new data. -->
 
 <br>
 
@@ -51,14 +51,14 @@ The estimation uncertainly is quite substantial (translate directly to wide cred
 ### (i) Estimated temporal R0 and daily new cases for Alberta, BC, Ontario and Quebec
 
 
-Table: Estimated temporal R0 and daily new cases for Alberta, BC, Ontario and Quebec as of  Aug 07, 2020
+Table: Estimated temporal R0 and daily new cases for Alberta, BC, Ontario and Quebec as of  Aug 30, 2020
 
  Province    New confirmed cases by infection date    Expected change in daily cases    Effective reproduction no. 
 ----------  ---------------------------------------  --------------------------------  ----------------------------
- Alberta                110 (83 -- 130)                           Unsure                      1 (0.9 -- 1.2)       
-    BC                   51 (34 -- 69)                      Likely increasing                 1.2 (1 -- 1.5)       
- Ontario                105 (82 -- 126)                           Unsure                     0.9 (0.8 -- 1.1)      
-  Quebec               155 (126 -- 179)                           Unsure                      1 (0.9 -- 1.1)       
+ Alberta               137 (111 -- 164)                         Increasing                    1.2 (1 -- 1.4)       
+    BC                  94 (71 -- 111)                            Unsure                     1.1 (0.9 -- 1.2)      
+ Ontario               134 (107 -- 159)                     Likely increasing                 1.1 (1 -- 1.3)       
+  Quebec                103 (80 -- 123)                     Likely increasing                 1.1 (1 -- 1.3)       
 
 <br>
 
