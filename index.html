@@ -20,6 +20,7 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168093515-1"></script>
 <script>
@@ -293,20 +294,19 @@ $(document).ready(function () {
 <li><a href="#from-the-author">From the author</a></li>
 <li><a href="#current-projects">Current Projects</a><ul>
 <li><a href="#estimation-of-regional-temporal-reproduction-number-r0-of-covid-19">1. Estimation of Regional Temporal Reproduction Number R0 of COVID-19</a></li>
-<li><a href="#covid-19-canada-dashboard-link">2. COVID-19 Canada Dashboard <a href="https://kuan-liu.shinyapps.io/canada_dash/">(link)</a></a></li>
-<li><a href="#covid-19-testing-trend-in-canada-link">3. COVID-19 Testing Trend in Canada <a href="https://rpubs.com/kuanstat/testing_can">(link)</a></a></li>
+<li><a href="#covid-19-canada-dashboard-link">2. COVID-19 Canada Dashboard <span>(link)</span></a></li>
+<li><a href="#covid-19-canada-testing-dashboard-link">3. COVID-19 Canada Testing Dashboard <span>(link)</span></a></li>
 </ul></li>
-<li><a href="#future-projects">Future Projects</a></li>
 </ul>
 </div>
 
 <p><strong>Date Created:</strong> Jun 01, 2020</p>
-<p><strong>Date Updated:</strong> Jun 04, 2020</p>
+<p><strong>Date Updated:</strong> Sep 04, 2020</p>
 <p><br></p>
 <div id="from-the-author" class="section level1">
 <h1>From the author</h1>
 <p><strong>Thank you for your interest in my COVID-19 data visualization and data analysis work! I created this website to provide a one-stop shop for readers to view all my current and future COVID related projects.</strong></p>
-<p><strong>I don’t intent to style or format this webpage (please excuse the plainness). Feel free to reach me at <a href="mailto:kuan.liu@mail.utoronto.ca">kuan.liu@mail.utoronto.ca</a>. You can also find me on <a href="https://twitter.com/KuanLiu2">Twitter</a>. For those of you who are interested to learn more about me, I direct you to visit my other website <a href="https://www.kuan-liu.com/" class="uri">https://www.kuan-liu.com/</a>.</strong></p>
+<p><strong>I don’t intent to style or format this webpage (please excuse the plainness). Feel free to reach me at <a href="mailto:kuan.liu@mail.utoronto.ca" class="email">kuan.liu@mail.utoronto.ca</a>. You can also find me on <a href="https://twitter.com/KuanLiu2">Twitter</a>. For those of you who are interested to learn more about me, I direct you to visit my other website <a href="https://www.kuan-liu.com/" class="uri">https://www.kuan-liu.com/</a>.</strong></p>
 <p><br></p>
 </div>
 <div id="current-projects" class="section level1">
@@ -334,36 +334,30 @@ $(document).ready(function () {
 <li>A summary page for Toronto, Ontario and Quebec</li>
 <li>A page with Canada COVID-19 data table</li>
 </ul>
-<p>Sample plotly figures from our dashboard</p>
-<ul>
-<li><ol style="list-style-type: decimal">
-<li>Confirmed cases by province and territory</li>
-</ol></li>
-<li><ol start="2" style="list-style-type: decimal">
-<li>Daily new Confirmed, fatal and recovered cases</li>
-</ol></li>
-</ul>
-<p><img src="docs/figures/casebyprov_can.png" alt="Confirmed cases by province and territory" /> <img src="docs/figures/dailynew_can.png" alt="Daily new Confirmed, fatal and recovered cases" /></p>
+<p><br></p>
+<div class="figure">
+<img src="docs/figures/preview2.png" alt="" />
+<p class="caption">Dashboard preview</p>
+</div>
 <p><br></p>
 </div>
-<div id="covid-19-testing-trend-in-canada-link" class="section level2">
-<h2>3. COVID-19 Testing Trend in Canada <a href="https://rpubs.com/kuanstat/testing_can">(link)</a></h2>
-<p>This is a joint work with <a href="https://www.linkedin.com/in/alexandra-bushby-571b65168/">Alexandra Bushby</a> and <a href="https://www.linkedin.com/in/thaison-tang/">Thai-son Tang</a>. Our project website is hosted at <a href="https://rpubs.com/kuanstat/testing_can" class="uri">https://rpubs.com/kuanstat/testing_can</a>. We provide descriptive data visualization on COVID-19 testing data in Canada. I started this project back in late March.</p>
-<p>We are planning to move the website content to a new shiny app in June using primarily the official federal and provincial testing data. The current analysis uses mainly the testing data provided by <a href="https://github.com/ishaberry/Covid19Canada">the COVID-19 Canada Open Data Working Group</a>.</p>
-<p>Highlight of the project visualization content:</p>
+<div id="covid-19-canada-testing-dashboard-link" class="section level2">
+<h2>3. COVID-19 Canada Testing Dashboard <a href="https://kuan-liu.shinyapps.io/Testing_Dash/">(link)</a></h2>
+<p>We provide a comprehensive descriptive data visualization on COVID-19 testing data in Canada. Data used in this dashboard are from <a href="https://github.com/ishaberry/Covid19Canada">the COVID-19 Canada Open Data Working Group</a> and <a href="https://github.com/owid/covid-19-data/tree/master/public/data/">Our World In Data</a>.</p>
+<p>Project Members</p>
 <ul>
-<li>Total number of tests conducted</li>
-<li>Total number of tests conducted per 100,000 population</li>
-<li>Comparison of total tests per 100,000 population to the total number of cases per 100,000</li>
-<li>Total number of daily new tests conducted</li>
-<li>Proportion of patients tested positive out of the number of tests conducted</li>
+<li>Kuan Liu</li>
+<li><a href="https://twitter.com/ThaiSonTang">Thai-Son Tang</a></li>
+<li><a href="https://twitter.com/rose_carrot">Rose Garrett</a></li>
+<li><a href="https://www.linkedin.com/in/alexandra-bushby-571b65168/">Alexandra Bushby</a></li>
+<li><a href="https://github.com/maxwell-garrett">Maxwell Garrett</a></li>
 </ul>
+<div class="figure">
+<img src="docs/figures/preview.png" alt="" />
+<p class="caption">Dashboard preview</p>
+</div>
 <p><br></p>
 </div>
-</div>
-<div id="future-projects" class="section level1">
-<h1>Future Projects</h1>
-<p>I submitted a team project proposal to the University of Toronto COVID-19 Student Engagement Award mid May. Our project is titled, “Using Data Visualization and Crowdsourcing Survey to study COVID-19 Testing Capacity, Protocol, and Barriers in Canada”. If funded, in addition to creating a testing data dashboard, we will conduct a crowdsourcing survey study to understand public perception on COVID-19 testing. In particular, we are interested to learn concerns people might have when requesting for a test, completing a test and waiting for test results. Stay tuned!</p>
 </div>
 
 

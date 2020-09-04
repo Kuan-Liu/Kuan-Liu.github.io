@@ -61,35 +61,30 @@ Highlight of the dashboard content:
 * A summary page for Toronto, Ontario and Quebec
 * A page with Canada COVID-19 data table
 
-Sample plotly figures from our dashboard
+<br>
 
-* 1. Confirmed cases by province and territory
-* 2. Daily new Confirmed, fatal and recovered cases
-
-![Confirmed cases by province and territory](docs/figures/casebyprov_can.png)
-![Daily new Confirmed, fatal and recovered cases](docs/figures/dailynew_can.png)
+![Dashboard preview](docs/figures/preview2.png)
 
 <br>
 
-## 3. COVID-19 Testing Trend in Canada [(link)](https://rpubs.com/kuanstat/testing_can)
+## 3. COVID-19 Canada Testing Dashboard [(link)](https://kuan-liu.shinyapps.io/Testing_Dash/)
 
-This is a joint work with [Alexandra Bushby](https://www.linkedin.com/in/alexandra-bushby-571b65168/) and [Thai-son Tang](https://www.linkedin.com/in/thaison-tang/). Our project website is hosted at <https://rpubs.com/kuanstat/testing_can>. We provide descriptive data visualization on COVID-19 testing data in Canada. I started this project back in late March. 
+We provide a comprehensive descriptive data visualization on COVID-19 testing data in Canada. Data used in this dashboard are from [the COVID-19 Canada Open Data Working Group](https://github.com/ishaberry/Covid19Canada) and [Our World In Data]( https://github.com/owid/covid-19-data/tree/master/public/data/).
 
-We are planning to move the website content to a new shiny app in June using primarily the official federal and provincial testing data. The current analysis uses mainly the testing data provided by [the COVID-19 Canada Open Data Working Group](https://github.com/ishaberry/Covid19Canada). 
+Project Members
 
-Highlight of the project visualization content: 
+  - Kuan Liu
+  - [Thai-Son Tang](https://twitter.com/ThaiSonTang) 
+  - [Rose Garrett](https://twitter.com/rose_carrot)
+  - [Alexandra Bushby](https://www.linkedin.com/in/alexandra-bushby-571b65168/)
+  - [Maxwell Garrett](https://github.com/maxwell-garrett)
 
-* Total number of tests conducted
-* Total number of tests conducted per 100,000 population
-* Comparison of total tests per 100,000 population to the total number of cases per 100,000
-* Total number of daily new tests conducted
-* Proportion of patients tested positive out of the number of tests conducted
+
+![Dashboard preview](docs/figures/preview.png)
 
 <br>
 
-# Future Projects
 
-I submitted a team project proposal to the University of Toronto COVID-19 Student Engagement Award mid May. Our project is titled, "Using Data Visualization and Crowdsourcing Survey to study COVID-19 Testing Capacity, Protocol, and Barriers in Canada". If funded, in addition to creating a testing data dashboard, we will conduct a crowdsourcing survey study to understand public perception on COVID-19 testing. In particular, we are interested to learn concerns people might have when requesting for a test, completing a test and waiting for test results. Stay tuned!
 
 
 
