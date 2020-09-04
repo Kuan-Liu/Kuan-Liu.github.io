@@ -17,7 +17,7 @@ output:
 
 **Date Created:** Jun 01, 2020
 
-**Date Updated:** Aug 31, 2020
+**Date Updated:** Sep 04, 2020
 
 
 
@@ -58,31 +58,26 @@ Highlight of the dashboard content:
 * A summary page for Toronto, Ontario and Quebec
 * A page with Canada COVID-19 data table
 
-Sample plotly figures from our dashboard
+<br>
 
-* 1. Confirmed cases by province and territory
-* 2. Daily new Confirmed, fatal and recovered cases
-
-![Confirmed cases by province and territory](docs/figures/casebyprov_can.png)
-![Daily new Confirmed, fatal and recovered cases](docs/figures/dailynew_can.png)
+![Dashboard preview](docs/figures/preview2.png)
 
 <br>
 
 ## 3. COVID-19 Canada Testing Dashboard [(link)](https://kuan-liu.shinyapps.io/Testing_Dash/)
 
-We provide descriptive data visualization on COVID-19 testing data in Canada. Data used in this dashboard are from the COVID-19 Canada Open Data Working Group and Our World In Data, https://github.com/owid/covid-19-data/tree/master/public/data/.
+We provide a comprehensive descriptive data visualization on COVID-19 testing data in Canada. Data used in this dashboard are from [the COVID-19 Canada Open Data Working Group](https://github.com/ishaberry/Covid19Canada) and [Our World In Data]( https://github.com/owid/covid-19-data/tree/master/public/data/).
 
 Project Members
 
-  - Project Lead, Kuan Liu, PhD Candidate in Biostatistics, Dalla Lana School of Public Health, University of Toronto
-  - Data Manager, Thai-Son Tang, PhD student in Biostatistics, Dalla Lana School of Public Health, University of Toronto
-  - Rose Garrett, PhD student in Biostatistics, Dalla Lana School of Public Health, University of Toronto
-  - Alex Bushby, PhD student in Biostatistics, Dalla Lana School of Public Health, University of Toronto
-  - Maxwell Garrett, Undergraduate student - Computer Science Specialist, Faculty of Arts & Science, University of Toronto
+  - Kuan Liu
+  - [Thai-Son Tang](https://twitter.com/ThaiSonTang) 
+  - [Rose Garrett](https://twitter.com/rose_carrot)
+  - [Alexandra Bushby](https://www.linkedin.com/in/alexandra-bushby-571b65168/)
+  - [Maxwell Garrett](https://github.com/maxwell-garrett)
 
 
-
-![Dashboard preview](docs/figures/snippeek.png)
+![Dashboard preview](docs/figures/preview.png)
 
 <br>
 
