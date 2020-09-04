@@ -20,6 +20,7 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 
 
@@ -295,7 +296,7 @@ $(document).ready(function () {
 </div>
 
 <p><strong>Date Created:</strong> Jun 01, 2020</p>
-<p><strong>Date Updated:</strong> Aug 30, 2020</p>
+<p><strong>Date Updated:</strong> Sep 04, 2020</p>
 <p><br></p>
 <div id="overview-on-estimation-methods" class="section level1">
 <h1>1. Overview on Estimation Methods</h1>
@@ -311,8 +312,8 @@ $(document).ready(function () {
 <div id="overall-summary" class="section level2">
 <h2>(1) Overall summary</h2>
 <ul>
-<li><strong>We observed a probable infection spread and rate increase in Ontario and Quebect.</strong></li>
-<li><strong>We observed a highly probable infection increase in Alberta.</strong> <!-- * **We observed an increasing number of daily new cases in Alberta since June 2020. However, the predicted number of daily new cases in Alberta is only around 100 cases.** --> <!-- * **No forecast of R0 for BC due to low number of daily new cases. Prediction is not completed if the last daily new case number is under 40.** --></li>
+<li><strong>We observed a highly probable infection spread and rate increase in Alberta, Ontario and Quebec.</strong></li>
+<li><strong>We observed a probable infection increase in British Columbia.</strong> <!-- * **We observed an increasing number of daily new cases in Alberta since June 2020. However, the predicted number of daily new cases in Alberta is only around 100 cases.** --> <!-- * **No forecast of R0 for BC due to low number of daily new cases. Prediction is not completed if the last daily new case number is under 40.** --></li>
 </ul>
 <!-- The estimation uncertainly is quite substantial (translate directly to wide credible interval) for British Columbia R0 estimand. Thus, the conclusion of probable infection in BC is sensitive to new data on daily new confirmed cases. Our model conclusion will likely change for BC with new data. -->
 <p><br></p>
@@ -322,7 +323,13 @@ $(document).ready(function () {
 <div id="i-estimated-temporal-r0-and-daily-new-cases-for-alberta-bc-ontario-and-quebec" class="section level3">
 <h3>(i) Estimated temporal R0 and daily new cases for Alberta, BC, Ontario and Quebec</h3>
 <table>
-<caption>Estimated temporal R0 and daily new cases for Alberta, BC, Ontario and Quebec as of Aug 30, 2020</caption>
+<caption>Estimated temporal R0 and daily new cases for Alberta, BC, Ontario and Quebec as of Sep 04, 2020</caption>
+<colgroup>
+<col width="9%" />
+<col width="35%" />
+<col width="29%" />
+<col width="25%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="center">Province</th>
@@ -334,27 +341,27 @@ $(document).ready(function () {
 <tbody>
 <tr class="odd">
 <td align="center">Alberta</td>
-<td align="center">137 (111 -- 164)</td>
+<td align="center">172 (138 – 199)</td>
 <td align="center">Increasing</td>
-<td align="center">1.2 (1 -- 1.4)</td>
+<td align="center">1.2 (1.1 – 1.4)</td>
 </tr>
 <tr class="even">
 <td align="center">BC</td>
-<td align="center">94 (71 -- 111)</td>
-<td align="center">Unsure</td>
-<td align="center">1.1 (0.9 -- 1.2)</td>
+<td align="center">105 (80 – 125)</td>
+<td align="center">Likely increasing</td>
+<td align="center">1.1 (0.9 – 1.3)</td>
 </tr>
 <tr class="odd">
 <td align="center">Ontario</td>
-<td align="center">134 (107 -- 159)</td>
-<td align="center">Likely increasing</td>
-<td align="center">1.1 (1 -- 1.3)</td>
+<td align="center">153 (127 – 181)</td>
+<td align="center">Increasing</td>
+<td align="center">1.1 (1 – 1.3)</td>
 </tr>
 <tr class="even">
 <td align="center">Quebec</td>
-<td align="center">103 (80 -- 123)</td>
-<td align="center">Likely increasing</td>
-<td align="center">1.1 (1 -- 1.3)</td>
+<td align="center">153 (124 – 179)</td>
+<td align="center">Increasing</td>
+<td align="center">1.2 (1.1 – 1.4)</td>
 </tr>
 </tbody>
 </table>
@@ -362,26 +369,17 @@ $(document).ready(function () {
 </div>
 <div id="ii-estimated-temporal-r0-for-alberta-bc-ontario-and-quebec" class="section level3">
 <h3>(ii) Estimated temporal R0 for Alberta, BC, Ontario and Quebec</h3>
-<div class="figure">
-<img src="docs/regional-summary/high_cases_rt_plot.png" />
-
-</div>
+<p><img src="docs/regional-summary/high_cases_rt_plot.png" /></p>
 <p><br></p>
 </div>
 <div id="iii-estimated-temporal-trend-on-daily-new-cases-for-alberta-bc-ontario-and-quebec" class="section level3">
 <h3>(iii) Estimated temporal trend on daily new cases for Alberta, BC, Ontario and Quebec</h3>
-<div class="figure">
-<img src="docs/regional-summary/high_cases_plot.png" />
-
-</div>
+<p><img src="docs/regional-summary/high_cases_plot.png" /></p>
 <p><br></p>
 </div>
 <div id="iv-estimated-currentlatest-number-of-daily-new-cases-and-r0-for-alberta-bc-ontario-and-quebec" class="section level3">
 <h3>(iv) Estimated current/latest number of daily new cases and R0 for Alberta, BC, Ontario and Quebec</h3>
-<div class="figure">
-<img src="docs/regional-summary/summary_plot.png" />
-
-</div>
+<p><img src="docs/regional-summary/summary_plot.png" /></p>
 </div>
 </div>
 </div>
