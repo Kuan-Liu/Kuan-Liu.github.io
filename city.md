@@ -13,7 +13,7 @@ output:
 
 **Date Created:** Jun 01, 2020
 
-**Date Updated:** Sep 19, 2020
+**Date Updated:** Sep 22, 2020
 
 
 
@@ -23,8 +23,8 @@ output:
 # 1. Overall summary
 
 <!-- * **We observed probable infection rate decrease in Toronto and Peel.** -->
-* **We observed probable increase of infection in Toronto, Peel and Montreal.**
-* **It's unclear (neither increasing nor decreasing) for Monteregie.**
+* **We observed probable increase of infection in all four health regions.**
+<!-- * **It's unclear (neither increasing nor decreasing) for Monteregie.** -->
 <!-- * **No forecast of R0 for areas with low number of daily new cases. Prediction is not completed if the last daily new case number is under 40.** -->
 
 **For estimation methods please see <https://epiforecasts.io/covid/methods.html>.** 
@@ -38,14 +38,14 @@ output:
 ## (1) Estimated temporal R0 and daily new cases for Monteregie, Montreal, Toronto and Peel health regions
 
 
-Table: Estimated temporal R0 and daily new cases for Monteregie, Montreal, Toronto and Peel health regions as of  Sep 19, 2020
+Table: Estimated temporal R0 and daily new cases for Monteregie, Montreal, Toronto and Peel health regions as of  Sep 22, 2020
 
 |    City    | New confirmed cases by infection date | Expected change in daily cases | Effective reproduction no. |
 |:----------:|:-------------------------------------:|:------------------------------:|:--------------------------:|
-| Monteregie |             32 (18 -- 44)             |             Unsure             |      1.1 (0.8 -- 1.4)      |
-|  Montreal  |            131 (99 -- 159)            |           Increasing           |      1.5 (1.2 -- 1.7)      |
-|    Peel    |             62 (44 -- 78)             |       Likely increasing        |      1.1 (0.9 -- 1.3)      |
-|  Toronto   |            95 (71 -- 112)             |           Increasing           |       1.2 (1 -- 1.4)       |
+| Monteregie |             55 (40 -- 72)             |           Increasing           |       1.3 (1 -- 1.6)       |
+|  Montreal  |           176 (144 -- 203)            |           Increasing           |      1.4 (1.2 -- 1.6)      |
+|    Peel    |            90 (66 -- 110)             |           Increasing           |       1.2 (1 -- 1.4)       |
+|  Toronto   |           150 (121 -- 177)            |           Increasing           |      1.3 (1.1 -- 1.5)      |
 
 <br>
 
