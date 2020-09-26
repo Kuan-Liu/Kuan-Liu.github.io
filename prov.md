@@ -13,7 +13,7 @@ output:
 
 **Date Created:** Jun 01, 2020
 
-**Date Updated:** Sep 22, 2020
+**Date Updated:** Sep 26, 2020
 
 
 
@@ -37,8 +37,8 @@ Last but not least, a 14-day forecast of R0 is conducted with the ensumble time 
 
 ## (1) Overall summary
 
-* **We observed a highly probable infection spread and rate increase in Ontario and Quebec.**
-* **We observed a probable infection increase in British Columbia.**
+* **We observed a highly probable infection spread and rate increase in Alberta, Ontario and Quebec.**
+<!-- * **We observed a probable infection increase in British Columbia.** -->
 <!-- * **We observed an increasing number of daily new cases in Alberta since June 2020. However, the predicted number of daily new cases in Alberta is only around 100 cases.** -->
 <!-- * **No forecast of R0 for BC due to low number of daily new cases. Prediction is not completed if the last daily new case number is under 40.** -->
 
@@ -51,14 +51,14 @@ Last but not least, a 14-day forecast of R0 is conducted with the ensumble time 
 ### (i) Estimated temporal R0 and daily new cases for Alberta, BC, Ontario and Quebec
 
 
-Table: Estimated temporal R0 and daily new cases for Alberta, BC, Ontario and Quebec as of  Sep 22, 2020
+Table: Estimated temporal R0 and daily new cases for Alberta, BC, Ontario and Quebec as of  Sep 26, 2020
 
 | Province | New confirmed cases by infection date | Expected change in daily cases | Effective reproduction no. |
 |:--------:|:-------------------------------------:|:------------------------------:|:--------------------------:|
-| Alberta  |           148 (122 -- 176)            |             Unsure             |       1 (0.9 -- 1.2)       |
-|    BC    |           143 (121 -- 166)            |       Likely increasing        |       1.1 (1 -- 1.2)       |
-| Ontario  |           422 (372 -- 472)            |           Increasing           |      1.2 (1.1 -- 1.4)      |
-|  Quebec  |           488 (429 -- 545)            |           Increasing           |      1.3 (1.2 -- 1.4)      |
+| Alberta  |           176 (143 -- 203)            |           Increasing           |       1.1 (1 -- 1.3)       |
+|    BC    |           128 (104 -- 150)            |             Unsure             |       1 (0.9 -- 1.1)       |
+| Ontario  |           481 (426 -- 536)            |           Increasing           |      1.2 (1.1 -- 1.3)      |
+|  Quebec  |           599 (537 -- 665)            |           Increasing           |      1.2 (1.1 -- 1.3)      |
 
 <br>
 
