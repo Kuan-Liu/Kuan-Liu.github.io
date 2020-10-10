@@ -13,7 +13,7 @@ output:
 
 **Date Created:** Jun 01, 2020
 
-**Date Updated:** Oct 01, 2020
+**Date Updated:** Oct 10, 2020
 
 
 
@@ -22,8 +22,8 @@ output:
 
 # 1. Overall summary
 
-* **We observed highly probable infection rate increase in Toronto, Monteregie, and Montreal.**
-* **We observed probable increase of infection in Peel.**
+* **We observed probable infection rate increase in all four health regions.**
+<!-- * **We observed probable increase of infection in PeelToronto, Monteregie, and Montreal.** -->
 * **It's unclear (neither increasing nor decreasing) for Peel.**
 <!-- * **No forecast of R0 for areas with low number of daily new cases. Prediction is not completed if the last daily new case number is under 40.** -->
 
@@ -38,14 +38,14 @@ output:
 ## (1) Estimated temporal R0 and daily new cases for Monteregie, Montreal, Toronto and Peel health regions
 
 
-Table: Estimated temporal R0 and daily new cases for Monteregie, Montreal, Toronto and Peel health regions as of  Oct 01, 2020
+Table: Estimated temporal R0 and daily new cases for Monteregie, Montreal, Toronto and Peel health regions as of  Oct 10, 2020
 
 |    City    | New confirmed cases by infection date | Expected change in daily cases | Effective reproduction no. |
 |:----------:|:-------------------------------------:|:------------------------------:|:--------------------------:|
-| Monteregie |            106 (83 -- 127)            |           Increasing           |      1.3 (1.1 -- 1.4)      |
-|  Montreal  |           309 (268 -- 351)            |           Increasing           |      1.3 (1.1 -- 1.4)      |
-|    Peel    |            103 (81 -- 123)            |       Likely increasing        |      1.1 (0.9 -- 1.3)      |
-|  Toronto   |           279 (231 -- 317)            |           Increasing           |      1.3 (1.1 -- 1.4)      |
+| Monteregie |           179 (144 -- 207)            |           Increasing           |      1.2 (1.1 -- 1.4)      |
+|  Montreal  |           372 (324 -- 413)            |           Increasing           |       1.1 (1 -- 1.2)       |
+|    Peel    |           137 (108 -- 160)            |           Increasing           |       1.2 (1 -- 1.3)       |
+|  Toronto   |           281 (237 -- 316)            |       Likely increasing        |       1.1 (1 -- 1.2)       |
 
 <br>
 
