@@ -40,7 +40,7 @@ Last but not least, a 14-day forecast of R0 is conducted with the ensumble time 
 
 ## (1) Overall summary
 
-* **We observed a probable infection spread and rate increase in Alberta, British Columbia, Ontario and Quebec.**
+* **We observed a probable infection spread and rate increase in Alberta, British Columbia and Ontario with estimated daily new cases at 543 (466-606) in Alberta, 296 (255-345) in British Columbia, and 1013 (939-1106) in Ontario.**
 <!-- * **We observed a probable infection increase in British Columbia.** -->
 <!-- * **We observed an increasing number of daily new cases in Alberta since June 2020. However, the predicted number of daily new cases in Alberta is only around 100 cases.** -->
 <!-- * **No forecast of R0 for BC due to low number of daily new cases. Prediction is not completed if the last daily new case number is under 40.** -->
