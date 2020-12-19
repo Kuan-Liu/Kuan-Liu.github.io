@@ -13,7 +13,7 @@ output:
 
 **Date Created:** Jun 01, 2020
 
-**Date Updated:** Dec 18, 2020
+**Date Updated:** Dec 19, 2020
 
 
 
@@ -22,9 +22,9 @@ output:
 
 # 1. Overall summary
 
-* **We observed probable infection rate increase in Toronto, Monteregie, and Montreal health regions.**
+* **We observed probable infection rate increase in Toronto, Peel, Monteregie, and Montreal health regions.**
 <!-- * **We observed probable increase of infection in Peel, Toronto, Monteregie, and Montreal.with estimated daily new cases at 596 (535 – 652) in Peel and 469 (411 – 512) in Toronto** -->
-* **It's unclear (neither increasing nor decreasing) for Toronto and Montreal.**
+<!-- * **It's unclear (neither increasing nor decreasing) for Toronto and Montreal.** -->
 <!-- * **No forecast of R0 for areas with low number of daily new cases. Prediction is not completed if the last daily new case number is under 40.** -->
 
 **For estimation methods please see <https://epiforecasts.io/covid/methods.html>.** 
@@ -38,14 +38,14 @@ output:
 ## (1) Estimated temporal R0 and daily new cases for Monteregie, Montreal, Toronto and Peel health regions
 
 
-Table: Estimated temporal R0 and daily new cases for Monteregie, Montreal, Toronto and Peel health regions as of  Dec 18, 2020
+Table: Estimated temporal R0 and daily new cases for Monteregie, Montreal, Toronto and Peel health regions as of  Dec 19, 2020
 
 |    City    | New confirmed cases by infection date | Expected change in daily cases | Effective reproduction no. |
 |:----------:|:-------------------------------------:|:------------------------------:|:--------------------------:|
-| Monteregie |           277 (239 -- 310)            |           Increasing           |      1.2 (1.1 -- 1.3)      |
-|  Montreal  |           620 (553 -- 686)            |           Increasing           |      1.2 (1.1 -- 1.2)      |
-|    Peel    |           490 (436 -- 541)            |             Unsure             |        1 (1 -- 1.1)        |
-|  Toronto   |           596 (535 -- 652)            |       Likely increasing        |       1.1 (1 -- 1.1)       |
+| Monteregie |           260 (223 -- 297)            |       Likely increasing        |       1.1 (1 -- 1.2)       |
+|  Montreal  |           663 (595 -- 723)            |           Increasing           |       1.1 (1 -- 1.2)       |
+|    Peel    |           498 (442 -- 551)            |       Likely increasing        |       1.1 (1 -- 1.1)       |
+|  Toronto   |           744 (669 -- 825)            |           Increasing           |      1.2 (1.1 -- 1.2)      |
 
 <br>
 

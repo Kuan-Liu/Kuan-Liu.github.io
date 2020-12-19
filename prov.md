@@ -13,7 +13,7 @@ output:
 
 **Date Created:** Jun 01, 2020
 
-**Date Updated:** Dec 18, 2020
+**Date Updated:** Dec 19, 2020
 
 
 
@@ -37,7 +37,7 @@ Last but not least, a 14-day forecast of R0 is conducted with the ensumble time 
 
 ## (1) Overall summary
 
-* **We observed a probable infection spread and rate increase in Alberta, Quebec and Ontario.**
+* **We observed a probable infection spread and rate increase in Alberta, British Columbia, Quebec and Ontario.**
 <!-- * **We observed a probable infection increase in British Columbia.** -->
 <!-- * **We observed an increasing number of daily new cases in Alberta since June 2020. However, the predicted number of daily new cases in Alberta is only around 100 cases.** -->
 <!-- * **No forecast of R0 for BC due to low number of daily new cases. Prediction is not completed if the last daily new case number is under 40.** -->
@@ -51,14 +51,14 @@ Last but not least, a 14-day forecast of R0 is conducted with the ensumble time 
 ### (i) Estimated temporal R0 and daily new cases for Alberta, BC, Ontario and Quebec
 
 
-Table: Estimated temporal R0 and daily new cases for Alberta, BC, Ontario and Quebec as of  Dec 18, 2020
+Table: Estimated temporal R0 and daily new cases for Alberta, BC, Ontario and Quebec as of  Dec 19, 2020
 
 | Province | New confirmed cases by infection date | Expected change in daily cases | Effective reproduction no. |
 |:--------:|:-------------------------------------:|:------------------------------:|:--------------------------:|
-| Alberta  |          1818 (1688 -- 1952)          |           Increasing           |        1 (1 -- 1.1)        |
-|    BC    |           672 (610 -- 738)            |             Unsure             |       1 (0.9 -- 1.1)       |
-| Ontario  |          2074 (1941 -- 2245)          |           Increasing           |       1.1 (1 -- 1.1)       |
-|  Quebec  |          1947 (1779 -- 2096)          |           Increasing           |      1.1 (1.1 -- 1.2)      |
+| Alberta  |          1714 (1592 -- 1843)          |       Likely increasing        |        1 (1 -- 1.1)        |
+|    BC    |           819 (729 -- 901)            |           Increasing           |       1.1 (1 -- 1.2)       |
+| Ontario  |          2388 (2181 -- 2582)          |           Increasing           |      1.1 (1.1 -- 1.2)      |
+|  Quebec  |          2023 (1875 -- 2170)          |           Increasing           |      1.1 (1.1 -- 1.1)      |
 
 <br>
 
