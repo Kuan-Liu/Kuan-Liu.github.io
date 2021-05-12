@@ -39,9 +39,12 @@ This work is produced by replicating the subnational analysis provided at <https
 
 Two R packages developed by the same team were used, [the EpiNow R package](https://github.com/epiforecasts/EpiNow) and [the EpiSoon R package](https://github.com/epiforecasts/EpiSoon). In addition, [the forecastHybrid R package](https://github.com/ellisp/forecastHybrid) developed by David Shaub and Peter Ellis is used to produce a 14-day forecast on R0. Canada data is extracted again from the open-access data provided by [the COVID-19 Canada Open Data Working Group](https://github.com/ishaberry/Covid19Canada). 
 
-**Complete model output is available at <https://github.com/Kuan-Liu/Kuan-Liu.github.io/tree/master/docs/regional-summary> and <https://github.com/Kuan-Liu/Kuan-Liu.github.io/tree/master/docs/city-summary>. You can find here, 1) all figures in png format, 2) estimated daily new cases with 50% and 90% credible intervals in case.csv file, 3) estimated and forecast temporal R0 with 50% and 90% Credible intervals in rt.csv file.**
+**Complete model output is available at <https://github.com/Kuan-Liu/Kuan-Liu.github.io/tree/master/docs/regional-summary> and <https://github.com/Kuan-Liu/Kuan-Liu.github.io/tree/master/docs/city-summary>.** 
 
-<br>
+You can find here, 
+
+1.  estimated daily new cases with 50% and 90% credible intervals in case.csv file,
+2.  estimated and forecast temporal R0 with 50% and 90% Credible intervals in rt.csv file.
 
 **Last analysis update: Janurary 20, 2021**
 
