@@ -19,6 +19,15 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -31,35 +40,19 @@
   gtag('config', 'UA-168093515-1');
 </script>
 
-
-
-
 <style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
 
 
 
@@ -69,10 +62,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -89,40 +78,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -150,7 +112,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -162,7 +124,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -173,10 +135,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -188,7 +163,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -267,12 +241,6 @@ $(document).ready(function () {
         <li>
   <a href="index.html">Home</a>
 </li>
-<li>
-  <a href="prov.html">Provincial level R0</a>
-</li>
-<li>
-  <a href="city.html">City level R0</a>
-</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -281,7 +249,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -301,7 +269,7 @@ $(document).ready(function () {
 </div>
 
 <p><strong>Date Created:</strong> Jun 01, 2020</p>
-<p><strong>Date Updated:</strong> Sep 26, 2020</p>
+<p><strong>Date Updated:</strong> May 12, 2021</p>
 <p><br></p>
 <div id="from-the-author" class="section level1">
 <h1>From the author</h1>
@@ -315,7 +283,9 @@ $(document).ready(function () {
 <h2>1. Estimation of Regional Temporal Reproduction Number R0 of COVID-19</h2>
 <p>This work is produced by replicating the subnational analysis provided at <a href="https://epiforecasts.io/covid/" class="uri">https://epiforecasts.io/covid/</a> by a team of researchers lead by <a href="https://www.lshtm.ac.uk/aboutus/people/funk.sebastian">Prof. Sebastian Funk</a> at the Centre for the Mathematical Modelling of Infectious Disases, London School of Hygiene and Tropical Medicine.</p>
 <p>Two R packages developed by the same team were used, <a href="https://github.com/epiforecasts/EpiNow">the EpiNow R package</a> and <a href="https://github.com/epiforecasts/EpiSoon">the EpiSoon R package</a>. In addition, <a href="https://github.com/ellisp/forecastHybrid">the forecastHybrid R package</a> developed by David Shaub and Peter Ellis is used to produce a 14-day forecast on R0. Canada data is extracted again from the open-access data provided by <a href="https://github.com/ishaberry/Covid19Canada">the COVID-19 Canada Open Data Working Group</a>.</p>
-<p><strong>Estimation results are shared on this website on subtabs <a href="https://kuan-liu.github.io/prov.html">Provincial level R0</a> and <a href="https://kuan-liu.github.io/city.html">City level R0</a>. I plan to update estimation results about three times per week.</strong></p>
+<p><strong>Complete model output is available at <a href="https://github.com/Kuan-Liu/Kuan-Liu.github.io/tree/master/docs/regional-summary" class="uri">https://github.com/Kuan-Liu/Kuan-Liu.github.io/tree/master/docs/regional-summary</a> and <a href="https://github.com/Kuan-Liu/Kuan-Liu.github.io/tree/master/docs/city-summary" class="uri">https://github.com/Kuan-Liu/Kuan-Liu.github.io/tree/master/docs/city-summary</a>. You can find here, 1) all figures in png format, 2) estimated daily new cases with 50% and 90% credible intervals in case.csv file, 3) estimated and forecast temporal R0 with 50% and 90% Credible intervals in rt.csv file.</strong></p>
+<p><br></p>
+<p><strong>Last analysis update: Janurary 20, 2021</strong></p>
 <p><br></p>
 </div>
 <div id="covid-19-canada-dashboard-link" class="section level2">
@@ -369,7 +339,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -387,7 +357,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

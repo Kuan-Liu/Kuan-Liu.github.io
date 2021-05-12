@@ -5,7 +5,7 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "Provincial level R0"
-      href: prov.html
-    - text: "City level R0"
-      href: city.html
+    # - text: "Provincial level R0"
+    #   href: prov.html
+    # - text: "City level R0"
+    #   href: city.html
