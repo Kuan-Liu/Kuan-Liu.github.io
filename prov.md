@@ -13,7 +13,7 @@ output:
 
 **Date Created:** Jun 01, 2020
 
-**Date Updated:** Jan 12, 2021
+**Date Updated:** May 12, 2021
 
 
 
@@ -51,7 +51,7 @@ Last but not least, a 14-day forecast of R0 is conducted with the ensumble time 
 ### (i) Estimated temporal R0 and daily new cases for Alberta, BC, Ontario and Quebec
 
 
-Table: Estimated temporal R0 and daily new cases for Alberta, BC, Ontario and Quebec as of  Jan 12, 2021
+Table: Estimated temporal R0 and daily new cases for Alberta, BC, Ontario and Quebec as of  May 12, 2021
 
 | Province | New confirmed cases by infection date | Expected change in daily cases | Effective reproduction no. |
 |:--------:|:-------------------------------------:|:------------------------------:|:--------------------------:|

@@ -13,7 +13,7 @@ output:
 
 **Date Created:** Jun 01, 2020
 
-**Date Updated:** Jan 12, 2021
+**Date Updated:** May 12, 2021
 
 
 
@@ -38,7 +38,7 @@ output:
 ## (1) Estimated temporal R0 and daily new cases for Monteregie, Montreal, Toronto and Peel health regions
 
 
-Table: Estimated temporal R0 and daily new cases for Monteregie, Montreal, Toronto and Peel health regions as of  Jan 12, 2021
+Table: Estimated temporal R0 and daily new cases for Monteregie, Montreal, Toronto and Peel health regions as of  May 12, 2021
 
 |    City    | New confirmed cases by infection date | Expected change in daily cases | Effective reproduction no. |
 |:----------:|:-------------------------------------:|:------------------------------:|:--------------------------:|
