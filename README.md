@@ -1,3 +1,1 @@
-# personal_site
-
-#To be updated
+# https://kuan-liu.github.io/
