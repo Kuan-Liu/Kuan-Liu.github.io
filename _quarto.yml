@@ -3,18 +3,33 @@ project:
   output-dir: docs
 
 website:
-  title: "Quarto website tutorial with Kuan"
+  title: "Quarto website template"
+  site-url: "https://kuan-liu.github.io/"
+  page-footer:
+    right: "This page is built with [Quarto](https://quarto.org/)."
+    left: "Kuan Liu, University of Toronto @ 2022"
   navbar:
-    left:
-      - href: index.qmd
+    right:
+      - href: about.qmd
         text: Home
-      - about.qmd
+      - href: index.qmd
+        text: Research
+      - text: "CV"
+        href: file/Kuan_Latex_CV.pdf
+      - icon: github
+        href: https://github.com/Kuan-Liu
+      - icon: twitter
+        href: https://twitter.com/KuanLiu2
 
 format:
   html:
-    theme: cosmo
+    theme: Zephyr
     css: styles.css
     toc: true
 
 editor: visual
 
+freeze: auto
+
+
+        

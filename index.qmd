@@ -1,11 +1,50 @@
 ---
-title: "Quarto website"
+title: "Research"
 ---
 
-This is a Quarto website.
+My primary research focuses on developing methodology for statistical inference with complex longitudinal data in comparative effectiveness research. My areas of methodological interest include causal inference, Bayesian statistics, longitudinal data analysis, measurement errors and bias analysis, and semi-parametric/parametric joint modelling.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
-```{r}
-1 + 1
-```
+**For students who are interested in any of these topics, please free feel to drop me an [email](mailto:kuan.liu@utoronto.ca).**
+
+## Research themes
+
+### 1. Methdological research in causal inference with longitudinal data
+
+I develop Bayesian estimation methods that permit causal inference in longitudinal observational studies using administrative databases with the following features, repeated measures, high-dimensional confounding, latent variables, and multiple outcomes.
+
+I have two completed projects under this theme:
+
+- 1.	Liu, K. et al. (2020) Estimation of causal effects with repeatedly measured outcomes in a Bayesian framework. Statistical methods in medical research, 29(9), pp.2507-2519. 
+- 2.	Liu, K. et al. (2021) A Bayesian latent class approach to causal inference with longitudinal data. Statistical methods in medical research, Under Revision. 
+
+
+Ongoing projects under this theme:
+
+- 1. Causal analysis for time-varying treatment: a software review. (student project lead by Yutong Lu, BSc in Applied Statistics, this is a [Data Science Institutes Undergraduate Summer Research Project](https://datasciences.utoronto.ca/suds/))
+- 2. Causal analysis with unmeasured confounding under a Bayesian framework
+
+
+### 2. Design and analysis of observational study
+
+I am interested in studying and applying statistical methods on the design and analysis of clinical and public health studies of rare diseases and chronic conditions. Under this theme, Bayesian inference is an appealing framework: it i) provides a flexible framework for data augmentation and adaptive designs, ii) propagates estimation uncertainty and enables the modelling of latent variables, iii) allow direct probability summaries, and iv) can incorporate prior clinical/expert beliefs. 
+
+I work with leading pediatric rheumatologists at SickKids on several projects using causal analysis to investigate long-term clinical outcomes of juvenile dermatomyositis and systemic lupus erythematosus. Currently, I am mentoring two graduate-level biostatistics practicum students working on some of these projects.
+
+- Liu K, et al. (2021). Pilot study of the juvenile dermatomyositis consensus treatment plans: A CARRA Registry study. *Journal of Rheumatology*, 48(1): 114-122. doi:[10.3899/jrheum.190494](https://doi.org/10.3899/jrheum.190494) 
+
+### 3. Causal inference methods for randomized controlled trials
+
+Causal inference methods have been applied to traditional RCT data to adjust for non-compliance. Newer trial designs such as pragmatic trials, with a focus on providing timely efficacy evidence, often do not feature complete treatment randomization and thus require causal inference methods to estimate causal effect. Under this topic, my research interests focus on methods for subgroup analysis including identification of patient subgroups and clinical phenotypes that have differential response to treatment. 
+
+
+## Recent publications
+
+-  Burns KEA, Laird M, Stevenson J, Honarmand K, Granton D, Kho ME, [et al, including **Liu K**]. (2021). Adherence of Clinical Practice Guidelines for Pharmacologic Treatments of Hospitalized Patients With COVID-19 to Trustworthy Standards: A Systematic Review. *JAMA network open*, 4(12), e2136263-e2136263. doi:[10.1001/jamanetworkopen.2021.36263](https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2787001) 
+-  Trivedi V, Chaudhuri D, Jinah R, Piticaru J, Agarwal A, **Liu K**, et al. The Utility of the Rapid Shallow Breathing Index in Predicting Successful Extubation: A Systematic Review and Meta-analysis. (2021) *CHEST*. doi:[https://doi.org/10.1016/j.chest.2021.06.030](https://www.sciencedirect.com/science/article/abs/pii/S0012369221012575)
+-  **Liu K**, Saarela O, George Tomlinson, Feldman BM, Pullenayegum E. A Bayesian latent class approach to causal inference with longitudinal data. (Under Revision)
+-  **Liu K**, Tomlinson G, Reed AM, Huber AM, Saarela O, Bou-Tabaku SM, et al. (2021). Pilot study of the juvenile dermatomyositis consensus treatment plans: A CARRA Registry study. *Journal of Rheumatology*, 48(1): 114-122. doi:[10.3899/jrheum.190494](https://doi.org/10.3899/jrheum.190494) 
+-  Zhang X, Liu S, Wang J, Huang Y, Freeman Z, Fu S, [et al, including **Liu K**]. (2020) Local community assembly mechanisms shape soil bacterial $\beta$-diversity patterns along latitudinal gradients in eastern China. *Nature Communications*, 11(1): 1-10. doi:[10.1038/s41467-020-19228-4](https://www.nature.com/articles/s41467-020-19228-4)
+-  **Liu K**, Saarela O, Feldman BM, Pullenayegum E. (2020). Estimation of causal effects with repeatedly measured outcomes in a Bayesian framework. *Statistical Methods in Medical Research*, 29(9): 2507-2519. doi:[10.1177/0962280219900362](https://journals.sagepub.com/doi/abs/10.1177/0962280219900362) 
+-  Nater A, Chuang J, **Liu K**, Quraishi NA, Pasku D, Wilson JR, et al. (2020). A personalized medicine approach for the management of spinal metastases with cord compression: development of a novel clinical prediction model for postoperative survival and Quality of Life. *World Neurosurgery*, 140: 654-663.  doi:[10.1016/j.wneu.2020.03.098](https://www.sciencedirect.com/science/article/abs/pii/S1878875020305696)
+-  Harris DA, Soucy J-PR, Kinitz DJ, **Liu K**, Rajendran AA, Sturrock SL, et al. (2020). Four dates, one future: Founding editorial for the University of Toronto Journal of Public Health. *University of Toronto Journal of Public Health*, 1(1): 1-5. doi:[10.33137/utjph.v1i1.34435](https://utjph.com/index.php/utjph/article/view/34435)

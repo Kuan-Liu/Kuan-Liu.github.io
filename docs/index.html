@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Quarto website tutorial with Kuan - Quarto website</title>
+<title>Quarto website template - Research</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,69 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-    color: #aaaaaa;
-  }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { color: #008000; } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { color: #008000; font-weight: bold; } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -122,6 +59,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   }
 }</script>
 
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -134,19 +72,32 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Quarto website tutorial with Kuan</span>
+    <span class="navbar-title">Quarto website template</span>
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">Home</a>
+    <a class="nav-link" href="./about.html">Home</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">About</a>
+    <a class="nav-link active" href="./index.html" aria-current="page">Research</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./file/Kuan_Latex_CV.pdf">CV</a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/Kuan-Liu"><i class="bi bi-github" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/KuanLiu2"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -159,14 +110,26 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#research-themes" id="toc-research-themes" class="nav-link active" data-scroll-target="#research-themes">Research themes</a>
+  <ul class="collapse">
+  <li><a href="#methdological-research-in-causal-inference-with-longitudinal-data" id="toc-methdological-research-in-causal-inference-with-longitudinal-data" class="nav-link" data-scroll-target="#methdological-research-in-causal-inference-with-longitudinal-data">1. Methdological research in causal inference with longitudinal data</a></li>
+  <li><a href="#design-and-analysis-of-observational-study" id="toc-design-and-analysis-of-observational-study" class="nav-link" data-scroll-target="#design-and-analysis-of-observational-study">2. Design and analysis of observational study</a></li>
+  <li><a href="#causal-inference-methods-for-randomized-controlled-trials" id="toc-causal-inference-methods-for-randomized-controlled-trials" class="nav-link" data-scroll-target="#causal-inference-methods-for-randomized-controlled-trials">3. Causal inference methods for randomized controlled trials</a></li>
+  </ul></li>
+  <li><a href="#recent-publications" id="toc-recent-publications" class="nav-link" data-scroll-target="#recent-publications">Recent publications</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Quarto website</h1>
+<h1 class="title">Research</h1>
 </div>
 
 
@@ -180,16 +143,60 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 </header>
 
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
+<p>My primary research focuses on developing methodology for statistical inference with complex longitudinal data in comparative effectiveness research. My areas of methodological interest include causal inference, Bayesian statistics, longitudinal data analysis, measurement errors and bias analysis, and semi-parametric/parametric joint modelling.</p>
+<p><strong>For students who are interested in any of these topics, please free feel to drop me an <a href="mailto:kuan.liu@utoronto.ca">email</a>.</strong></p>
+<section id="research-themes" class="level2">
+<h2 class="anchored" data-anchor-id="research-themes">Research themes</h2>
+<section id="methdological-research-in-causal-inference-with-longitudinal-data" class="level3">
+<h3 class="anchored" data-anchor-id="methdological-research-in-causal-inference-with-longitudinal-data">1. Methdological research in causal inference with longitudinal data</h3>
+<p>I develop Bayesian estimation methods that permit causal inference in longitudinal observational studies using administrative databases with the following features, repeated measures, high-dimensional confounding, latent variables, and multiple outcomes.</p>
+<p>I have two completed projects under this theme:</p>
+<ul>
+<li><ol type="1">
+<li>Liu, K. et al.&nbsp;(2020) Estimation of causal effects with repeatedly measured outcomes in a Bayesian framework. Statistical methods in medical research, 29(9), pp.2507-2519.</li>
+</ol></li>
+<li><ol start="2" type="1">
+<li>Liu, K. et al.&nbsp;(2021) A Bayesian latent class approach to causal inference with longitudinal data. Statistical methods in medical research, Under Revision.</li>
+</ol></li>
+</ul>
+<p>Ongoing projects under this theme:</p>
+<ul>
+<li><ol type="1">
+<li>Causal analysis for time-varying treatment: a software review. (student project lead by Yutong Lu, BSc in Applied Statistics, this is a <a href="https://datasciences.utoronto.ca/suds/">Data Science Institutes Undergraduate Summer Research Project</a>)</li>
+</ol></li>
+<li><ol start="2" type="1">
+<li>Causal analysis with unmeasured confounding under a Bayesian framework</li>
+</ol></li>
+</ul>
+</section>
+<section id="design-and-analysis-of-observational-study" class="level3">
+<h3 class="anchored" data-anchor-id="design-and-analysis-of-observational-study">2. Design and analysis of observational study</h3>
+<p>I am interested in studying and applying statistical methods on the design and analysis of clinical and public health studies of rare diseases and chronic conditions. Under this theme, Bayesian inference is an appealing framework: it i) provides a flexible framework for data augmentation and adaptive designs, ii) propagates estimation uncertainty and enables the modelling of latent variables, iii) allow direct probability summaries, and iv) can incorporate prior clinical/expert beliefs.</p>
+<p>I work with leading pediatric rheumatologists at SickKids on several projects using causal analysis to investigate long-term clinical outcomes of juvenile dermatomyositis and systemic lupus erythematosus. Currently, I am mentoring two graduate-level biostatistics practicum students working on some of these projects.</p>
+<ul>
+<li>Liu K, et al.&nbsp;(2021). Pilot study of the juvenile dermatomyositis consensus treatment plans: A CARRA Registry study. <em>Journal of Rheumatology</em>, 48(1): 114-122. doi:<a href="https://doi.org/10.3899/jrheum.190494">10.3899/jrheum.190494</a></li>
+</ul>
+</section>
+<section id="causal-inference-methods-for-randomized-controlled-trials" class="level3">
+<h3 class="anchored" data-anchor-id="causal-inference-methods-for-randomized-controlled-trials">3. Causal inference methods for randomized controlled trials</h3>
+<p>Causal inference methods have been applied to traditional RCT data to adjust for non-compliance. Newer trial designs such as pragmatic trials, with a focus on providing timely efficacy evidence, often do not feature complete treatment randomization and thus require causal inference methods to estimate causal effect. Under this topic, my research interests focus on methods for subgroup analysis including identification of patient subgroups and clinical phenotypes that have differential response to treatment.</p>
+</section>
+</section>
+<section id="recent-publications" class="level2">
+<h2 class="anchored" data-anchor-id="recent-publications">Recent publications</h2>
+<ul>
+<li>Burns KEA, Laird M, Stevenson J, Honarmand K, Granton D, Kho ME, [et al, including <strong>Liu K</strong>]. (2021). Adherence of Clinical Practice Guidelines for Pharmacologic Treatments of Hospitalized Patients With COVID-19 to Trustworthy Standards: A Systematic Review. <em>JAMA network open</em>, 4(12), e2136263-e2136263. doi:<a href="https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2787001">10.1001/jamanetworkopen.2021.36263</a></li>
+<li>Trivedi V, Chaudhuri D, Jinah R, Piticaru J, Agarwal A, <strong>Liu K</strong>, et al.&nbsp;The Utility of the Rapid Shallow Breathing Index in Predicting Successful Extubation: A Systematic Review and Meta-analysis. (2021) <em>CHEST</em>. doi:<a href="https://www.sciencedirect.com/science/article/abs/pii/S0012369221012575">https://doi.org/10.1016/j.chest.2021.06.030</a></li>
+<li><strong>Liu K</strong>, Saarela O, George Tomlinson, Feldman BM, Pullenayegum E. A Bayesian latent class approach to causal inference with longitudinal data. (Under Revision)</li>
+<li><strong>Liu K</strong>, Tomlinson G, Reed AM, Huber AM, Saarela O, Bou-Tabaku SM, et al.&nbsp;(2021). Pilot study of the juvenile dermatomyositis consensus treatment plans: A CARRA Registry study. <em>Journal of Rheumatology</em>, 48(1): 114-122. doi:<a href="https://doi.org/10.3899/jrheum.190494">10.3899/jrheum.190494</a></li>
+<li>Zhang X, Liu S, Wang J, Huang Y, Freeman Z, Fu S, [et al, including <strong>Liu K</strong>]. (2020) Local community assembly mechanisms shape soil bacterial <span class="math inline">\(\beta\)</span>-diversity patterns along latitudinal gradients in eastern China. <em>Nature Communications</em>, 11(1): 1-10. doi:<a href="https://www.nature.com/articles/s41467-020-19228-4">10.1038/s41467-020-19228-4</a></li>
+<li><strong>Liu K</strong>, Saarela O, Feldman BM, Pullenayegum E. (2020). Estimation of causal effects with repeatedly measured outcomes in a Bayesian framework. <em>Statistical Methods in Medical Research</em>, 29(9): 2507-2519. doi:<a href="https://journals.sagepub.com/doi/abs/10.1177/0962280219900362">10.1177/0962280219900362</a></li>
+<li>Nater A, Chuang J, <strong>Liu K</strong>, Quraishi NA, Pasku D, Wilson JR, et al.&nbsp;(2020). A personalized medicine approach for the management of spinal metastases with cord compression: development of a novel clinical prediction model for postoperative survival and Quality of Life. <em>World Neurosurgery</em>, 140: 654-663. doi:<a href="https://www.sciencedirect.com/science/article/abs/pii/S1878875020305696">10.1016/j.wneu.2020.03.098</a></li>
+<li>Harris DA, Soucy J-PR, Kinitz DJ, <strong>Liu K</strong>, Rajendran AA, Sturrock SL, et al.&nbsp;(2020). Four dates, one future: Founding editorial for the University of Toronto Journal of Public Health. <em>University of Toronto Journal of Public Health</em>, 1(1): 1-5. doi:<a href="https://utjph.com/index.php/utjph/article/view/34435">10.33137/utjph.v1i1.34435</a></li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
