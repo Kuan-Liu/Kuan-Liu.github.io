@@ -7,13 +7,6 @@
     "text": "I am an Assistant Professor in Health Services Research (outcomes and evaluation method emphasis) and Biostatistics at University of Toronto."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Research",
-    "section": "",
-    "text": "My primary research focuses on developing methodology for statistical inference with complex longitudinal data in comparative effectiveness research. My areas of methodological interest include causal inference, Bayesian statistics, longitudinal data analysis, measurement errors and bias analysis, and semi-parametric/parametric joint modelling.\nFor students who are interested in any of these topics, please free feel to drop me an email."
-  },
-  {
     "objectID": "about.html#education",
     "href": "about.html#education",
     "title": "Kuan Liu",
@@ -21,15 +14,36 @@
     "text": "Education\nUniversity of Toronto | Toronto, ON PhD in Biostatistics | September 2015 - June 2021\nUniversity of Waterloo | Waterloo, ON MMath in Statistics (Biostatistics) | September 2011 - September 2012\nUniversity of Alberta | Edmonton, AB BSc Honour in Statistics | September 2007 - June 2011"
   },
   {
-    "objectID": "index.html#research-themes",
-    "href": "index.html#research-themes",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Kuan Liu",
+    "section": "",
+    "text": "I am an Assistant Professor in Health Services Research (outcomes and evaluation method emphasis) and Biostatistics at University of Toronto."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Kuan Liu",
+    "section": "Education",
+    "text": "Education\nUniversity of Toronto | Toronto, ON PhD in Biostatistics | September 2015 - June 2021\nUniversity of Waterloo | Waterloo, ON MMath in Statistics (Biostatistics) | September 2011 - September 2012\nUniversity of Alberta | Edmonton, AB BSc Honour in Statistics | September 2007 - June 2011"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My primary research focuses on developing methodology for statistical inference with complex longitudinal data in comparative effectiveness research. My areas of methodological interest include causal inference, Bayesian statistics, longitudinal data analysis, measurement errors and bias analysis, and semi-parametric/parametric joint modelling.\nFor students who are interested in any of these topics, please free feel to drop me an email."
+  },
+  {
+    "objectID": "research.html#research-themes",
+    "href": "research.html#research-themes",
     "title": "Research",
     "section": "Research themes",
     "text": "Research themes\n\n1. Methdological research in causal inference with longitudinal data\nI develop Bayesian estimation methods that permit causal inference in longitudinal observational studies using administrative databases with the following features, repeated measures, high-dimensional confounding, latent variables, and multiple outcomes.\nI have two completed projects under this theme:\n\n\nLiu, K. et al. (2020) Estimation of causal effects with repeatedly measured outcomes in a Bayesian framework. Statistical methods in medical research, 29(9), pp.2507-2519.\n\n\nLiu, K. et al. (2021) A Bayesian latent class approach to causal inference with longitudinal data. Statistical methods in medical research, Under Revision.\n\n\nOngoing projects under this theme:\n\n\nCausal analysis for time-varying treatment: a software review. (student project lead by Yutong Lu, BSc in Applied Statistics, this is a Data Science Institutes Undergraduate Summer Research Project)\n\n\nCausal analysis with unmeasured confounding under a Bayesian framework\n\n\n\n\n2. Design and analysis of observational study\nI am interested in studying and applying statistical methods on the design and analysis of clinical and public health studies of rare diseases and chronic conditions. Under this theme, Bayesian inference is an appealing framework: it i) provides a flexible framework for data augmentation and adaptive designs, ii) propagates estimation uncertainty and enables the modelling of latent variables, iii) allow direct probability summaries, and iv) can incorporate prior clinical/expert beliefs.\nI work with leading pediatric rheumatologists at SickKids on several projects using causal analysis to investigate long-term clinical outcomes of juvenile dermatomyositis and systemic lupus erythematosus. Currently, I am mentoring two graduate-level biostatistics practicum students working on some of these projects.\n\nLiu K, et al. (2021). Pilot study of the juvenile dermatomyositis consensus treatment plans: A CARRA Registry study. Journal of Rheumatology, 48(1): 114-122. doi:10.3899/jrheum.190494\n\n\n\n3. Causal inference methods for randomized controlled trials\nCausal inference methods have been applied to traditional RCT data to adjust for non-compliance. Newer trial designs such as pragmatic trials, with a focus on providing timely efficacy evidence, often do not feature complete treatment randomization and thus require causal inference methods to estimate causal effect. Under this topic, my research interests focus on methods for subgroup analysis including identification of patient subgroups and clinical phenotypes that have differential response to treatment."
   },
   {
-    "objectID": "index.html#recent-publications",
-    "href": "index.html#recent-publications",
+    "objectID": "research.html#recent-publications",
+    "href": "research.html#recent-publications",
     "title": "Research",
     "section": "Recent publications",
     "text": "Recent publications\n\nBurns KEA, Laird M, Stevenson J, Honarmand K, Granton D, Kho ME, [et al, including Liu K]. (2021). Adherence of Clinical Practice Guidelines for Pharmacologic Treatments of Hospitalized Patients With COVID-19 to Trustworthy Standards: A Systematic Review. JAMA network open, 4(12), e2136263-e2136263. doi:10.1001/jamanetworkopen.2021.36263\nTrivedi V, Chaudhuri D, Jinah R, Piticaru J, Agarwal A, Liu K, et al. The Utility of the Rapid Shallow Breathing Index in Predicting Successful Extubation: A Systematic Review and Meta-analysis. (2021) CHEST. doi:https://doi.org/10.1016/j.chest.2021.06.030\nLiu K, Saarela O, George Tomlinson, Feldman BM, Pullenayegum E. A Bayesian latent class approach to causal inference with longitudinal data. (Under Revision)\nLiu K, Tomlinson G, Reed AM, Huber AM, Saarela O, Bou-Tabaku SM, et al. (2021). Pilot study of the juvenile dermatomyositis consensus treatment plans: A CARRA Registry study. Journal of Rheumatology, 48(1): 114-122. doi:10.3899/jrheum.190494\nZhang X, Liu S, Wang J, Huang Y, Freeman Z, Fu S, [et al, including Liu K]. (2020) Local community assembly mechanisms shape soil bacterial \\(\\beta\\)-diversity patterns along latitudinal gradients in eastern China. Nature Communications, 11(1): 1-10. doi:10.1038/s41467-020-19228-4\nLiu K, Saarela O, Feldman BM, Pullenayegum E. (2020). Estimation of causal effects with repeatedly measured outcomes in a Bayesian framework. Statistical Methods in Medical Research, 29(9): 2507-2519. doi:10.1177/0962280219900362\nNater A, Chuang J, Liu K, Quraishi NA, Pasku D, Wilson JR, et al. (2020). A personalized medicine approach for the management of spinal metastases with cord compression: development of a novel clinical prediction model for postoperative survival and Quality of Life. World Neurosurgery, 140: 654-663. doi:10.1016/j.wneu.2020.03.098\nHarris DA, Soucy J-PR, Kinitz DJ, Liu K, Rajendran AA, Sturrock SL, et al. (2020). Four dates, one future: Founding editorial for the University of Toronto Journal of Public Health. University of Toronto Journal of Public Health, 1(1): 1-5. doi:10.33137/utjph.v1i1.34435"

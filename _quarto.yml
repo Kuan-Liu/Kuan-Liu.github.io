@@ -10,9 +10,9 @@ website:
     left: "Kuan Liu, University of Toronto @ 2022"
   navbar:
     right:
-      - href: about.qmd
-        text: Home
       - href: index.qmd
+        text: Home
+      - href: research.qmd
         text: Research
       - text: "CV"
         href: file/Kuan_Latex_CV.pdf
