@@ -2,22 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://kuan-liu.github.io/about.html</loc>
-    <lastmod>2022-11-28T07:50:46.909Z</lastmod>
+    <lastmod>2022-11-28T19:17:38.666Z</lastmod>
   </url>
   <url>
     <loc>https://kuan-liu.github.io/blog.html</loc>
-    <lastmod>2022-11-28T07:51:14.533Z</lastmod>
+    <lastmod>2022-11-28T19:17:55.053Z</lastmod>
   </url>
   <url>
     <loc>https://kuan-liu.github.io/index.html</loc>
-    <lastmod>2022-11-28T07:50:48.010Z</lastmod>
+    <lastmod>2022-11-28T19:17:39.910Z</lastmod>
   </url>
   <url>
     <loc>https://kuan-liu.github.io/posts/interactive-nightingale-plot/index.html</loc>
-    <lastmod>2022-11-28T07:50:52.880Z</lastmod>
+    <lastmod>2022-11-28T19:17:41.662Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kuan-liu.github.io/posts/myfirstblog/index.html</loc>
+    <lastmod>2022-11-28T19:17:42.135Z</lastmod>
   </url>
   <url>
     <loc>https://kuan-liu.github.io/research.html</loc>
-    <lastmod>2022-11-28T07:50:53.358Z</lastmod>
+    <lastmod>2022-11-28T19:17:42.646Z</lastmod>
   </url>
 </urlset>
