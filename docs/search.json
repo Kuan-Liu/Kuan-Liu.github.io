@@ -14,6 +14,13 @@
     "text": "Education\nUniversity of Toronto | Toronto, ON PhD in Biostatistics | September 2015 - June 2021\nUniversity of Waterloo | Waterloo, ON MMath in Statistics (Biostatistics) | September 2011 - September 2012\nUniversity of Alberta | Edmonton, AB BSc Honour in Statistics | September 2007 - June 2011"
   },
   {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Quarto website template",
+    "section": "",
+    "text": "R\n\n\nData Visualization\n\n\nstatistical consulting\n\n\n\n\nCreating static and interactive Nightingale rose diagram using ggplot and plotly in R\n\n\n\n\n\n\nNov 28, 2022\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Kuan Liu",
@@ -26,6 +33,27 @@
     "title": "Kuan Liu",
     "section": "Education",
     "text": "Education\nUniversity of Toronto | Toronto, ON PhD in Biostatistics | September 2015 - June 2021\nUniversity of Waterloo | Waterloo, ON MMath in Statistics (Biostatistics) | September 2011 - September 2012\nUniversity of Alberta | Edmonton, AB BSc Honour in Statistics | September 2007 - June 2011"
+  },
+  {
+    "objectID": "posts/interactive-nightingale-plot/index.html",
+    "href": "posts/interactive-nightingale-plot/index.html",
+    "title": "Creating static and interactive Nightingale rose diagram",
+    "section": "",
+    "text": "This plot is also called Wind Rose and Coxcomb diagram.\nThis diagram was developed by Florence Nightingale (1820-1910), a statistician, nurse and social reformer who was the foundational philosopher of modern nursing.\nFor demonstration purpose, I will simulate a simple data inspired by the example figure.\nSuppose we have three variables in our data\n\nYear: 2016 to 2021\nInstruments of health: physical, mental and social\nmy self-reported measure of health by instruments: a score between 1 and 5, where 5 represents the highest level of self-reported health\n\n\n\nlibrary(tidyverse)\nlibrary(DT)\n\nset.seed(123)\ndat <- tibble(\n  Year = paste0(\"Y\",rep(2016:2021, each=3)),\n  Instrument = rep(c(\"physical\",\"mental\",\"social\"),6),\n  Score = sample(1:5, size = 3*6, replace = T))\n\ndat %>% datatable(\n  rownames = FALSE,\n  options = list(\n    columnDefs = list(list(className = 'dt-center', \n                      targets = 0:2))))\n\n\n\n\n\n\n\nwe plot year as our rays (or rose petals) and instruments as stacked bars with height representing the scores.\nAdding labels on top of each ray. This step requires we position the label using angle degrees.\n\n\nlibrary(viridis)\n\np <- ggplot(dat) +  \n  # Add the stacked bar\n  geom_bar(aes(x=Year, y=Score, fill=Instrument), stat=\"identity\", size=0.6, color=\"white\") +\n  scale_fill_viridis(discrete=TRUE, direction = 1, option = \"C\", name=\"Health Instrument\") +\n  ylim(0,15) + #using -1 as the lower bound to leave space in the centre of the polar\n  coord_polar() +\n  theme(\n    panel.background = element_rect(fill = \"white\", colour = \"white\"),\n    panel.grid.major = element_blank(),\n    panel.grid.minor = element_blank(),\n    panel.border = element_blank(),\n    axis.line = element_blank(),\n    axis.ticks = element_blank(),\n    legend.position = \"right\",\n    legend.text = element_text(size=18), #large font for website display\n    legend.title = element_text(size=20), #large font for website display\n    axis.text = element_blank(),\n    axis.title = element_blank()) \n\n# Add labels on top of each bar\nlabel_data <- dat %>% group_by(Year) %>% summarize(Tot=sum(Score))\nangle= round(90 - 360 * (c(1:nrow(label_data))-0.5) /nrow(label_data),0)     # I substract 0.5 because the letter must have the angle of the centre of the bars. Not extreme right(1) or extreme left (0)\nlabel_data$hjust<-ifelse(angle < -90, 1, 0)\nlabel_data$angle<-ifelse(angle < -90, angle+180, angle)\n\np + geom_text(data=label_data, aes(x=Year, y=Tot+0.5, label=Year, hjust=hjust),\n            color=\"black\", size=6, angle= label_data$angle, inherit.aes = FALSE)"
+  },
+  {
+    "objectID": "posts/interactive-nightingale-plot/index.html#creating-interactive-nightingale-rose-diagram-using-plotly",
+    "href": "posts/interactive-nightingale-plot/index.html#creating-interactive-nightingale-rose-diagram-using-plotly",
+    "title": "Creating static and interactive Nightingale rose diagram",
+    "section": "2. Creating interactive Nightingale rose diagram using plotly",
+    "text": "2. Creating interactive Nightingale rose diagram using plotly\n\nIn Plotly, r means radius and theta means angle. To specify categorical angle labels and ticks, we need to input character variable.\nBecause we specified theta to be categorical (representing variable Year), we need to define even breaks between 0 to 360 by the number of unique Years (6 years in this example) to place the angle labels.\n\nThis is controlled by setting period = 6 under the layout option of polar.\n\nThe interactive feature of plotly is super nice! You can try scaling and rotating the plot!\n\n\nlibrary(plotly)\n\nfig <- plot_ly() %>%\n  add_trace(\n    data = dat,\n    r = ~Score, #radius \n    theta = ~Year, #angle\n    type=\"barpolar\", \n    color = ~Instrument,\n    hovertemplate = paste('Score: %{r}',\n                        '<br>Year: %{theta}<br>')) %>%  \n  layout(\n    legend=list(title=list(text='Health Instrument')), \n    polar = list(angularaxis = list(\n      rotation = 90,\n      direction = 'clockwise', #position the polar diagram\n      period = 6)), #evenly distribute angles to host categorical var;\n    margin = 0.01) \nfig"
+  },
+  {
+    "objectID": "posts/interactive-nightingale-plot/index.html#r-session-information",
+    "href": "posts/interactive-nightingale-plot/index.html#r-session-information",
+    "title": "Creating static and interactive Nightingale rose diagram",
+    "section": "R session information",
+    "text": "R session information\n\n\nR version 4.1.3 (2022-03-10)\nPlatform: x86_64-w64-mingw32/x64 (64-bit)\nRunning under: Windows 10 x64 (build 19044)\n\nMatrix products: \n\nlocale:\n[1] LC_COLLATE=English_Canada.1252  LC_CTYPE=English_Canada.1252   \n[3] LC_MONETARY=English_Canada.1252 LC_NUMERIC=C                   \n[5] LC_TIME=English_Canada.1252    \n\nattached base packages:\n[1] stats     graphics  grDevices utils     datasets  methods   base     \n\nother attached packages:\n [1] plotly_4.10.0     viridis_0.6.2     viridisLite_0.4.0 DT_0.22          \n [5] forcats_0.5.1     stringr_1.4.0     dplyr_1.0.8       purrr_0.3.4      \n [9] readr_2.1.2       tidyr_1.2.0       tibble_3.1.6      ggplot2_3.3.5    \n[13] tidyverse_1.3.1"
   },
   {
     "objectID": "research.html",

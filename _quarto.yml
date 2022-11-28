@@ -14,6 +14,8 @@ website:
         text: Home
       - href: research.qmd
         text: Research
+      - href: blog.qmd
+        text: Blog
       - text: "CV"
         href: file/Kuan_Latex_CV.pdf
       - icon: github
