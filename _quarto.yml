@@ -7,7 +7,7 @@ website:
   site-url: "https://kuan-liu.github.io/"
   page-footer:
     right: "This page is built with [Quarto](https://quarto.org/)."
-    left: "Kuan Liu, University of Toronto @ 2022"
+    left: "Kuan Liu, University of Toronto @ 2023"
   navbar:
     right:
       - href: index.qmd
@@ -31,7 +31,8 @@ format:
 
 editor: visual
 
-freeze: auto
+execute:
+  freeze: auto
 
 
         

@@ -1,7 +1,9 @@
 ---
 title: "an interesting post"
-date: "2022-11-28"
+date: "2023-11-20"
 categories: [R, table]
+description: Just a testing post with specified blog feature image
+image: "banner.png"
 ---
 
 | Col1 | Col2 | Col3 |
@@ -9,3 +11,21 @@ categories: [R, table]
 | 1    | 2    | 5    |
 | 2    | 3    | 4    |
 | 3    | 4    | 2    |
+
+
+::: {.callout-note}
+Note that there are five types of callouts, including:
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+::: {.callout-tip}
+## Tip with Title
+
+This is an example of a callout with a title.
+:::
+
+::: {.callout-caution collapse="true"}
+## Expand To Learn About Collapse
+
+This is an example of a 'folded' caution callout that can be expanded by the user. You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
+:::

@@ -2,10 +2,10 @@
 listing:
   contents: posts
   sort: "date desc"
-  type: default
+  type: grid
   categories: true
   sort-ui: false
-  filter-ui: false
+  filter-ui: true
 page-layout: full
 title-block-banner: true
 ---
