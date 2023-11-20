@@ -1,28 +1,26 @@
 ---
 title: "Kuan Liu"
 about:
-  template: jolla
-  image: images/HDWG.jpg
+  template: marquee
+  image: images/IMG_0821.jpg
   links:
     - icon: twitter
-      text: twitter
+      text: X
       href: https://twitter.com/KuanLiu2
     - icon: github
       text: Github
       href: https://github.com/Kuan-Liu
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/
 ---
 
 I am an Assistant Professor in Health Services Research (outcomes and evaluation method emphasis) and Biostatistics at University of Toronto.
 
+## Education
 
-##  Education
+University of Toronto \| Toronto, ON PhD in Biostatistics \| September 2015 - June 2021
 
-University of Toronto | Toronto, ON
-PhD in Biostatistics | September 2015 - June 2021
+University of Waterloo \| Waterloo, ON MMath in Statistics (Biostatistics) \| September 2011 - September 2012
 
-University of Waterloo | Waterloo, ON
-MMath in Statistics (Biostatistics) | September 2011 - September 2012
-
-University of Alberta | Edmonton, AB
-BSc Honour in Statistics | September 2007 - June 2011
-
+University of Alberta \| Edmonton, AB BSc Honour in Statistics \| September 2007 - June 2011

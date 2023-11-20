@@ -1,0 +1,16 @@
+{
+  "hash": "2ccf81341cfda3e30c4daac489f5e8d8",
+  "result": {
+    "markdown": "---\ntitle: \"My mock second blog post\"\ndescription: \"This is created to show how to add any blog post\"\nauthor: \"Kuan\"\ndate: \"11/20/2023\"\ncategories:\n  - R\n  - Teaching\n---\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(car)\n```\n\n::: {.cell-output .cell-output-stderr}\n```\nLoading required package: carData\n```\n:::\n\n```{.r .cell-code}\nmydata <- cars\nplot(speed~dist, data = mydata)\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

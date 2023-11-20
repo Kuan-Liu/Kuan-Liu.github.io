@@ -1,27 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://kuan-liu.github.io/about.html</loc>
-    <lastmod>2023-11-20T07:54:28.465Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kuan-liu.github.io/blog.html</loc>
-    <lastmod>2023-11-20T07:55:09.039Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kuan-liu.github.io/index.html</loc>
-    <lastmod>2023-11-20T07:54:29.867Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kuan-liu.github.io/posts/interactive-nightingale-plot/index.html</loc>
-    <lastmod>2023-11-20T07:54:30.998Z</lastmod>
+    <loc>https://kuan-liu.github.io/research.html</loc>
+    <lastmod>2023-11-20T17:35:11.358Z</lastmod>
   </url>
   <url>
     <loc>https://kuan-liu.github.io/posts/myfirstblog/index.html</loc>
-    <lastmod>2023-11-20T07:54:31.564Z</lastmod>
+    <lastmod>2023-11-20T17:35:10.002Z</lastmod>
   </url>
   <url>
-    <loc>https://kuan-liu.github.io/research.html</loc>
-    <lastmod>2023-11-20T07:54:44.879Z</lastmod>
+    <loc>https://kuan-liu.github.io/index.html</loc>
+    <lastmod>2023-11-20T17:35:07.489Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kuan-liu.github.io/blog.html</loc>
+    <lastmod>2023-11-20T17:35:03.398Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kuan-liu.github.io/about.html</loc>
+    <lastmod>2023-11-20T17:35:02.329Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kuan-liu.github.io/blog2.html</loc>
+    <lastmod>2023-11-20T17:35:04.667Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kuan-liu.github.io/posts/interactive-nightingale-plot/index.html</loc>
+    <lastmod>2023-11-20T17:35:09.516Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kuan-liu.github.io/posts/mysecondblog/index.html</loc>
+    <lastmod>2023-11-20T17:35:10.741Z</lastmod>
   </url>
 </urlset>

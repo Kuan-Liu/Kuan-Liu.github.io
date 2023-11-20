@@ -1,0 +1,17 @@
+---
+title: "My mock second blog post"
+description: "This is created to show how to add any blog post"
+author: "Kuan"
+date: "11/20/2023"
+categories:
+  - R
+  - Teaching
+---
+
+
+```{r}
+library(car)
+mydata <- cars
+plot(speed~dist, data = mydata)
+```
+
