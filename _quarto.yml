@@ -36,5 +36,5 @@ editor: visual
 execute:
   freeze: auto
 
-
+engine: knitr
         
